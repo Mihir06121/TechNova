@@ -1,67 +1,46 @@
-import React, { Component } from "react";
+import React, { useState } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
+} from 'reactstrap';
 
-export class Navigation extends Component {
-  render() {
-    return (
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-        <div className="container">
-          <div className="navbar-header">
-            <button
-              type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              {" "}
-              <span className="sr-only">Toggle navigation</span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-              <span className="icon-bar"></span>{" "}
-            </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              TechNova-21
-            </a>{" "}
-          </div>
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-          <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul className="nav navbar-nav navbar-right">
-              {/* <li>
-                <a href="#features" className="page-scroll">
-                  Features
-                </a>
-              </li> */}
-              <li>
-                <a href="#about" className="page-scroll">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#events" className="page-scroll">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="page-scroll">
-                  Gallery
-                </a>
-              </li>
-              {/* <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
-                </a>
-              </li> */}
-              <li>
-                <a href="#team" className="page-scroll">
-                  Team
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="page-scroll">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    );
-  }
+  const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div className="fixed-top">
+      <Navbar color="light" light expand="md">
+        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+            <NavItem className="ml-5">
+              <NavLink href="#about">ABOUT</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#events">EVENTS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#gallary">GALLARY</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#team">TEAM</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#contact">CONTACT</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }
 
-export default Navigation;
+export default Example;

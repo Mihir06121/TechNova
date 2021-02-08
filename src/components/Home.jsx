@@ -1,14 +1,15 @@
 import React from "react";
+import '../components/home.css'
 
 const Header = () =>  {
 
   return (
     <header id="header">
-      <div className="intro pt-5 pb-5">
+      <div align="center" className="intro pt-5 pb-5">
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+              <div className="text-white col-md-8 col-md-offset-2">
                 <h1 data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
                   TECHNOVA-21
                 </h1>
