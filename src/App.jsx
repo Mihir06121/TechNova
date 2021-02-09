@@ -1,27 +1,14 @@
 import React, { Component } from 'react'
-import Navigation from './components/navigation';
+import Header from './components/Header';
 import Home from './components/Home';
-// import Features from './components/features';
-import About from './components/about';
-import Events from './components/Events';
-import Gallery from './components/gallery';
-// import Testimonials from './components/testimonials';
-import Team from './components/Team';
-import Contact from './components/contact';
+// import About from './components/about';
+// import Events from './components/Events';
+// import Gallery from './components/gallery';
+// import Team from './components/Team';
+// import Contact from './components/contact';
 import AOS from'aos';
-// import JsonData from './data/data.json';
 
 export class App extends Component {
-  // state = {
-  //   landingPageData: {},
-  // }
-  // getlandingPageData() {
-  //   this.setState({landingPageData : JsonData})
-  // }
-
-  // componentDidMount() {
-  //   this.getlandingPageData();
-  // }
 
   render() {
 
@@ -30,16 +17,14 @@ export class App extends Component {
     })
 
     return (
-      <div>
-        <Navigation />
+      <div align="center" className="container">
+        <Header /><br/>
         <Home />
-        {/* <Features data={this.state.landingPageData.Features} /> */}
-        <About />
+        {/* <About />
         <Events />
         <Gallery />
-        {/* <Testimonials /> */}
         <Team />
-        <Contact />
+        <Contact /> */}
       </div>
     )
   }

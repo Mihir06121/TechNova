@@ -6,7 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
 } from 'reactstrap';
 
 const Example = (props) => {
@@ -16,25 +16,25 @@ const Example = (props) => {
 
   return (
     <div className="fixed-top">
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar color="light" light expand="sm">
+        <NavbarBrand href="/">TechNova-21</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavItem className="ml-5">
-              <NavLink href="#about">ABOUT</NavLink>
+            <NavItem>
+              <NavLink href="#about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#events">EVENTS</NavLink>
+              <NavLink href="#events">Events</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#gallary">GALLARY</NavLink>
+              <NavLink href="#gallary">Gallary</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#team">TEAM</NavLink>
+              <NavLink href="#team">Team</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#contact">CONTACT</NavLink>
+              <NavLink href="Contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
