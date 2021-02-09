@@ -1,17 +1,24 @@
-import React from 'react'
-import { Jumbotron, Container, Button } from 'reactstrap';
-import "../components/home.css"
+import React from 'react';
+import { Jumbotron, Button } from 'reactstrap';
+import './home.css'
 
-const Home= () => {
+const Home = () => {
+
     return (
-        <div className="pt-5 bgimage">
-            <Jumbotron fluid className="bg-t">
-                <Container fluid className="text-white">
-                    <h1 className="display-4"><strong>TechNova-21</strong></h1>
-                    <p className="lead">TagLine</p>
-                </Container>
-            </Jumbotron>
-            <Button color="primary" size="lg">Large Button</Button>
+        <div id="home" className="p-lg-5 bgwrapper">
+            <div className="p-lg-5">
+                <div className="pt-5">
+                    <Jumbotron align="center" className="bg-t">
+                        <h1 align="center" className="display-4"
+                        data-aos="fade-up" data-aos-delay="300">TechNova-21</h1>
+                        <p className="lead">Tag Line</p>
+                        <hr className="my-2 bg-light" />
+                        <p className="lead pt-5">
+                        <Button color="primary">Learn More</Button>
+                        </p>
+                    </Jumbotron>
+                </div>
+            </div>
         </div>
     )
 }

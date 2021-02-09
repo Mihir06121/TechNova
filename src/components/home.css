@@ -1,16 +1,12 @@
-.center {
-    padding: 100px 0;
-    text-align: center;
+body{
+    background-color: black;
+    color: white;
 }
-
-.bgimage {
-    border: 2px solid black;
-    padding: 25px;
+.bgwrapper{
     background: url(../img/intro-bg.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
-
 .bg-t {
     background: transparent !important;
 }
