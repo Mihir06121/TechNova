@@ -1,6 +1,6 @@
 import React from 'react'
 import { Jumbotron, Container, Button } from 'reactstrap';
-import "../components/Home.css"
+import "../components/home.css"
 
 const Home= () => {
     return (
