@@ -18,24 +18,24 @@ const Example = (props) => {
   return (
     <div className="fixed-top text-white">
       <Navbar color="dark" light expand="sm">
-        <NavbarBrand className="text-white" href="/"><h2>TechNova-21</h2></NavbarBrand>
+        <NavbarBrand onClick={toggle} className="text-white" href="#home"><h2>TechNova-21</h2></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink className="text-white mr-5" href="#about"><h3>About</h3></NavLink>
+              <NavLink onClick={toggle} className="text-white mr-5" href="#about"><h3>About</h3></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="text-white mr-5" href="#events"><h3>Events</h3></NavLink>
+              <NavLink onClick={toggle} className="text-white mr-5" href="#events"><h3>Events</h3></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="text-white mr-5" href="#gallary"><h3>Gallary</h3></NavLink>
+              <NavLink onClick={toggle} className="text-white mr-5" href="#gallery"><h3>Gallery</h3></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="text-white mr-5" href="#team"><h3>Team</h3></NavLink>
+              <NavLink onClick={toggle} className="text-white mr-5" href="#team"><h3>Team</h3></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="text-white mr-5" href="Contact"><h3>Contact</h3></NavLink>
+              <NavLink onClick={toggle} className="text-white mr-5" href="#contact"><h3>Contact</h3></NavLink>
             </NavItem>
           </Nav>
         </Collapse>
