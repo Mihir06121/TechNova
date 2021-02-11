@@ -11,7 +11,7 @@ body{
 }
 
 .bgwrapper{
-    background: url(../img/home.gif);
+    background: url(../img/intro-bg.gif);
     /* filter: brightness(70%); */
     background-repeat: no-repeat;
     background-size: cover;
