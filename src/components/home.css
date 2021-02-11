@@ -2,11 +2,30 @@ body{
     background-color: black;
     color: white;
 }
+
+.head-text {
+    filter: brightness(200%) !important;
+    font-family:"Audiowide", sans-serif;
+    position: relative;
+    font-weight: bolder;
+}
+
 .bgwrapper{
-    background: url(../img/intro-bg.jpg);
+    background: url(../img/home.gif);
+    /* filter: brightness(70%); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .bg-t {
     background: transparent !important;
+}
+
+.bright {
+    filter: brightness(200%) !important;
+}
+
+.logo_img{
+    position: relative;
+    filter: brightness(200%);
 }
