@@ -7,14 +7,17 @@ const About = () => {
                 <h1>About TechNova</h1>
             </div>
             <div className="p-5 pt-5 pb-5">
-                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of 
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </h2>
+                <p>SHREE L. R. TIWARI DEGREE COLLEGE OF ARTS, COMMERCE & SCIENCE in Mira Road was established on 26th June 2018. 
+                    It got its permission from the Government of Maharashtra vide permission no – Shashan order No. – NGC 2018/100/18 Mashi-4 dated 15th June 2018. 
+                    The College functions under the aegis of University of Mumbai with affiliation No. – Aff/ICD/2018-19/645, and the college code as 1064. 
+                    The college offers traditional besides professional courses, namely, Bachelor of Commerce, Bachelor of Mass 
+                    Media and Communication, Bachelor in Accounts and Finance, Bachelor in Banking and Insurance, Bachelor of Management Studies, 
+                    and B.Sc. in Information Technology, B.Sc. in Computer Science, B.Sc. in Hospitality study and B.Sc. in Data Science.
+                    The college has a spacious campus with ideal building and state of the art infrastructure. 
+                    It is notable for quality education. Previously, students of this neighborhood faced difficulties in getting admission to the colleges positioned in Mira-Road. 
+                    Moreover, they had to face hardships while commuting by the overcrowded trains. Many female students had to drop out of college due to a lack of higher 
+                    education facilities in the locality.
+                </p>
             </div>
         </div>
     )

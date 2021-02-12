@@ -7,6 +7,9 @@ import Gallery from './components/Gallery';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import AOS from'aos';
+import RulesCod from './components/Rules/Cod'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
  const App = () => {
    
@@ -20,13 +23,22 @@ import AOS from'aos';
     
     return (
       <div>
-        <Header /><br/>
-        <Home /><br/>
-        <About />
-        <Events />
-        <Gallery />
-        <Team />
-        <Contact />
+        <Router>
+          <Switch>
+            <Route path="/rulescod">
+              <RulesCod />
+            </Route>
+            <Route path="/">
+              <Header /><br/>
+              <Home /><br/>
+              <About />
+              <Events />
+              <Gallery />
+              <Team />
+              <Contact />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     )
 }
