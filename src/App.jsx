@@ -10,8 +10,8 @@ import AOS from'aos';
 
  const App = () => {
    
-  let suggestion = "This site is still under development, stay tunned"
-  alert(suggestion)
+  // let suggestion = "This site is still under development, stay tunned"
+  // alert(suggestion)
 
     AOS.init({
       duration:'1200',
