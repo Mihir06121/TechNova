@@ -20,7 +20,7 @@ const Events = () => {
             </div>
             <div className="text-=white p-5" data-aos="zoom-in">
                 <Row className="bg-black">
-                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="fade-right" data-aos-delay="400">
+                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="flip-right" data-aos-delay="400">
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">Technical Day</h1>
@@ -39,7 +39,7 @@ const Events = () => {
                         <Webinar />
                         </Card>
                     </Col>
-                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="fade-left" data-aos-delay="400">
+                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="flip-left" data-aos-delay="400">
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">E-Sports</h1>
