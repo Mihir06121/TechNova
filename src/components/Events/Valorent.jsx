@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 
-import { Collapse, Button, CardBody, Card, Table } from 'reactstrap';
+import { Collapse, Button, CardBody, Card, Row, Col } from 'reactstrap';
 
 const Valorent = () => {
 
@@ -10,12 +10,16 @@ const Valorent = () => {
     return(
 
         <div className="pt-5 pb-5" data-aos="fade-up" data-aos-delay="600" >
-            <h2 align="center">
-                Valorent
-            </h2>
-            <div>
-            </div>
-            <Button color="primary" onClick={toggle} style={{ margin: '5%' }}>Know More</Button>
+        <Row>
+            <Col md="6">
+                <h2 align="center">
+                    Valorent
+                </h2>
+            </Col>
+            <Col align="center" md="6">
+                <Button color="primary" onClick={toggle}>Know More</Button>
+            </Col>
+        </Row>
                 <Collapse isOpen={isOpen} align="center">
                     <Card className="bg-dark">
                         <CardBody style={{textAlign:"left"}}>

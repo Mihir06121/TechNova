@@ -1,9 +1,17 @@
-import React from 'react'
-import { Button, UncontrolledCollapse, Card, CardBody } from 'reactstrap'
+import React, {useState} from 'react'
+import { Button, Collapse,  CardBody } from 'reactstrap'
 
 const RuleCod = () => {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+
+    
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
+
  return(
-     <div className="pt-5 pb-5">
+     <div id="codhead" className="pt-5 pb-5">
          <div align="center" className="pt-5">
              <h1>Call Of Duty</h1>
          </div>
@@ -113,44 +121,45 @@ const RuleCod = () => {
                     Multiplayer
                 </h3>
                 <div className="p-5">
-                    <li>
-                    SEARCH AND DESTROY<br/>
+                    <ul>
 
-                        total of 6 rounds
-                        first 3 rounds to save the objective and defend the attackers from planting the bomb
-                        second 3 rounds to attack the objective and plant the bomb 
-                    </li>
-                    <li>
-                    DOMINATION<br/>
+                        <li>
+                        SEARCH AND DESTROY<br/>
 
-                        Consisting of 2 rounds
-                        there are 3 objectives in the map A (alpha), B (bravo) and C (charlie)
-                        first team to reach 150 points wins the match
-                        Time Limit : 300 secs 
-                    </li>
-                    <li>
-                    HARDPOINT<br/>
+                            total of 6 rounds
+                            first 3 rounds to save the objective and defend the attackers from planting the bomb
+                            second 3 rounds to attack the objective and plant the bomb 
+                        </li>
+                        <li>
+                        DOMINATION<br/>
 
-                        Secure a particular location as hardpoint
-                        Kill the enemy in hardpoint and secure points
-                        first team to reach 150 points wins the match
-                        Time limit : 300 secs 
-                    </li>
+                            Consisting of 2 rounds
+                            there are 3 objectives in the map A (alpha), B (bravo) and C (charlie)
+                            first team to reach 150 points wins the match
+                            Time Limit : 300 secs 
+                        </li>
+                        <li>
+                        HARDPOINT<br/>
+
+                            Secure a particular location as hardpoint
+                            Kill the enemy in hardpoint and secure points
+                            first team to reach 150 points wins the match
+                            Time limit : 300 secs 
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div align="center" className="conatiner-fluid">
-            <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
-            Toggle
+            <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
+            Register
             </Button>
-            <UncontrolledCollapse toggler="#toggler">
-            <Card className="bg-dark">
+            <Collapse isOpen={isOpen} className="bg-dark">
                 <CardBody className="bg-dark mx-auto">
                 <iframe className="" src="https://docs.google.com/forms/d/e/1FAIpQLSeRQeJEh9q8T-tOTWELNlUSYp2GiYy-7PZSsmjad8gz6GwgTQ/viewform?embedded=true" 
-                width="340" height="1122" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                width="340" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                 </CardBody>
-            </Card>
-            </UncontrolledCollapse>
+            </Collapse>
         </div>
      </div>
  )

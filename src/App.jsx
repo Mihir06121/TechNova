@@ -7,14 +7,15 @@ import Gallery from './components/Gallery';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import AOS from'aos';
-import RulesCod from './components/Rules/Cod'
+import RulesCod from './components/Rules/Cod';
+import RulesCoding from './components/Rules/Coding'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
  const App = () => {
    
-  let suggestion = "This site is still under development, stay tunned"
-  alert(suggestion)
+  // let suggestion = "This site is still under development, stay tunned"
+  // alert(suggestion)
 
     AOS.init({
       duration:'1200',
@@ -25,6 +26,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
       <div>
         <Router>
           <Switch>
+            <Route path="/rulescoding">
+              <RulesCoding />
+            </Route>
             <Route path="/rulescod">
               <RulesCod />
             </Route>

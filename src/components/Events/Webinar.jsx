@@ -1,11 +1,8 @@
-import React, { useState} from 'react'
+import React from 'react'
 
-import { Collapse, Button, CardBody, Card, Table } from 'reactstrap';
+import {  Button, CardBody, Card } from 'reactstrap';
 
 const Webinar = () => {
-
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
 
     return(
 
@@ -13,10 +10,6 @@ const Webinar = () => {
             <h2 align="center">
                 Webinar Event
             </h2>
-            <div>
-            </div>
-            <Button color="primary" onClick={toggle} style={{ margin: '5%' }}>Know More</Button>
-                <Collapse isOpen={isOpen} align="center">
                     <Card className="bg-dark">
                         <CardBody style={{textAlign:"left"}}>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -29,8 +22,6 @@ const Webinar = () => {
                 </p>
                         </CardBody>
                     </Card>
-                        <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
-            </Collapse> 
         </div>
     )
 }
