@@ -31,7 +31,7 @@ const CallOfDuty = () => {
                         </p>
                         </CardBody>
                     </Card>
-                    <Link className="btn btn-primary" to="/rulescod/" target="_blanck">Know More</Link>
+                    <Link className="btn btn-primary" to="/rulescod/">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>

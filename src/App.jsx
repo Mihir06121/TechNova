@@ -26,13 +26,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
       <div>
         <Router>
           <Switch>
-            <Route path="/rulescoding">
+            <Route exact path="/rulescoding">
               <RulesCoding />
             </Route>
-            <Route path="/rulescod">
+            <Route exact path="/rulescod">
               <RulesCod />
             </Route>
-            <Route path="/">
+            <Route exact path="/">
               <Header /><br/>
               <Home /><br/>
               <About />
