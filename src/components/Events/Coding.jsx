@@ -33,7 +33,7 @@ const Technical = () => {
                             </p>
                         </CardBody>
                     </Card>
-                    <Link className="btn btn-primary" to="/rulescoding" target="_blanck">Know More</Link>
+                    <Link className="btn btn-primary" to="/rulescoding">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>
