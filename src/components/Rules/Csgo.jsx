@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Button, Collapse,  CardBody } from 'reactstrap'
 
-const RuleCod = () => {
+const Csgo = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
@@ -14,7 +14,7 @@ const RuleCod = () => {
  return(
      <div id="codhead" className="pt-5 pb-5">
          <div align="center" className="pt-5">
-             <h1>Call Of Duty</h1>
+             <h1>CSGO</h1>
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
@@ -166,4 +166,4 @@ const RuleCod = () => {
  )
 }
 
-export default RuleCod
+export default Csgo

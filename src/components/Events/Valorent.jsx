@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import { Collapse, Button, CardBody, Card, Row, Col } from 'reactstrap';
 
 const Valorent = () => {
@@ -34,6 +34,7 @@ const Valorent = () => {
                 </p>
                         </CardBody>
                     </Card>
+                    <Link className="btn btn-primary" to="/rulesvalorent">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>

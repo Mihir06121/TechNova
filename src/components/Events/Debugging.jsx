@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import { Collapse, Button, CardBody, Card, Row, Col } from 'reactstrap';
 
 const Debugging = () => {
@@ -13,7 +13,7 @@ const Debugging = () => {
         <Row>
             <Col md="6">
                 <h2 align="center">
-                    Debugging Event
+                    Debugging
                 </h2>
             </Col>
             <Col align="center" md="6">
@@ -33,6 +33,7 @@ const Debugging = () => {
                 </p>
                         </CardBody>
                     </Card>
+                    <Link className="btn btn-primary" to="/rulesdebugging">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>

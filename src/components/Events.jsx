@@ -9,6 +9,7 @@ import Webinar from './Events/Webinar';
 import CallOfDuty from './Events/CallOfDuty';
 import Valorent from './Events/Valorent';
 import Csgo from './Events/Csgo';
+import AmongUs from './Events/AmongUs';
 
 const Events = () => {
 
@@ -46,7 +47,8 @@ const Events = () => {
                         </div>
                         <CallOfDuty /><hr className="bg-light m-2" />
                         <Valorent /><hr className="bg-light m-2" />
-                        <Csgo />
+                        <Csgo /><hr className="bg-light m-2" />
+                        <AmongUs />
                         </Card>
                     </Col>
                 </Row>

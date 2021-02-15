@@ -1,5 +1,5 @@
 import React, { useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import { Collapse, Button, CardBody, Card, Row, Col } from 'reactstrap';
 
 const Csgo = () => {
@@ -33,6 +33,7 @@ const Csgo = () => {
                 </p>
                         </CardBody>
                     </Card>
+                    <Link className="btn btn-primary" to="/rulescsgo">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>

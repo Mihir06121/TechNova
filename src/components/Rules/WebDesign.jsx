@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Button, Card, CardBody, Collapse } from 'reactstrap'
 
-const RulesCoding = () => {
+const RuleCod = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
@@ -13,7 +13,7 @@ const RulesCoding = () => {
  return(
      <div className="pt-5 pb-3">
          <div align="center" className="pt-5">
-             <h1>Coding Contest</h1>
+             <h1>Web Design</h1>
          </div>
         <div className="pt-3 pb-5">
             <div className="p-5">
@@ -32,25 +32,25 @@ const RulesCoding = () => {
                             Use of USB drives is strictly prohibited 
                         </li>
                         <li>
-                            Entry fees: free
+                            Upload your file in .zip format, uploading files separately will not be counted.
                         </li>
                         <li>
-                            Coding Contest will be held on CodeChef (codechef.com)
+                            Website must be responsive and should run in any browser.
                         </li>
                         <li>
-                            Participants are required to solve the problem in given time to move to pre-elimination round.
+                            Paricipants will be disqualified for using or adding offensive contents in webpages or whatsapp group.
                         </li>
                         <li>
-                            Last 2 Participants will be eliminated.
+                            Links for submitting your site will be povided in Google Meet
                         </li>
                         <li>
-                            It is a tournament in which Participants will compete to each others.
+                            The website you created should include your name and registered mail-d at the end. If mail-id dosen't match your registered mail-id you may get disqualified.
                         </li>
                         <li>
                             Do not leave the whatsapp group until the result is declared or you may loose the winning award.
                         </li>
                         <li>
-                            Participants who will solve the problem correctly then others will be awarded as winner and follow up will be runner ups.
+                            
                         </li>
                         <li>
                             Winner will be awarded with Trophy, medal & Certificate.
@@ -74,4 +74,4 @@ const RulesCoding = () => {
  )
 }
 
-export default RulesCoding
+export default RuleCod

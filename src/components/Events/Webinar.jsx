@@ -1,6 +1,6 @@
 import React from 'react'
-
-import {  Button, CardBody, Card } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { CardBody, Card } from 'reactstrap';
 
 const Webinar = () => {
 
@@ -10,18 +10,26 @@ const Webinar = () => {
             <h2 align="center">
                 Webinar Event
             </h2>
-                    <Card className="bg-dark">
-                        <CardBody style={{textAlign:"left"}}>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of 
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <Card className="bg-dark">
+                <CardBody style={{textAlign:"left"}}>
+            <p>TechNova an initiative by Bsc.IT & Bsc.CS Department of 
+                Shree L.R. Tiwari Degree College of Arts, Commerce & Science is providing 1-Day hand on virtual practice on 
+                Artificial Intelligence Workshop absolutely free. The motive behind is to provide Some basic knowledge about Artificial Intelligence.
+                Artificial intelligence is based on the principle that human intelligence 
+                can be defined in a way that a machine can easily mimic it and execute tasks, from the most simple to those that are even more complex. 
+                The goals of artificial intelligence include learning, reasoning, and perception.
+                <br/><br/>
+                Date: 12th March 2020
+                Timing: 10:00 am
+                <br/><br/>
+                Note: Participants will be awarded with Certificate
+
                 </p>
-                        </CardBody>
-                    </Card>
+                </CardBody>
+                <div align="center" className="pt-4 pb-4">
+                    <Link className="btn btn-primary" to="/registerwebinar/">Register YourSelf</Link>
+                </div>
+            </Card>
         </div>
     )
 }

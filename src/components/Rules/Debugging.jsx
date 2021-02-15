@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Button, Card, CardBody, Collapse } from 'reactstrap'
 
-const RulesCoding = () => {
+const RulesDebugging = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
@@ -13,7 +13,7 @@ const RulesCoding = () => {
  return(
      <div className="pt-5 pb-3">
          <div align="center" className="pt-5">
-             <h1>Coding Contest</h1>
+             <h1>Debugging</h1>
          </div>
         <div className="pt-3 pb-5">
             <div className="p-5">
@@ -74,4 +74,4 @@ const RulesCoding = () => {
  )
 }
 
-export default RulesCoding
+export default RulesDebugging

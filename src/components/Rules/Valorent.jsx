@@ -1,20 +1,20 @@
 import React, {useState} from 'react'
 import { Button, Collapse,  CardBody } from 'reactstrap'
 
-const RuleCod = () => {
+const RuleValorent = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
+
     let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
     alert(warn)
-    
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
  return(
      <div id="codhead" className="pt-5 pb-5">
          <div align="center" className="pt-5">
-             <h1>Call Of Duty</h1>
+             <h1>Valorent</h1>
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
@@ -166,4 +166,4 @@ const RuleCod = () => {
  )
 }
 
-export default RuleCod
+export default RuleValorent

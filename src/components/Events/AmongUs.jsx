@@ -1,9 +1,9 @@
 import React, { useState} from 'react'
 import { Link } from 'react-router-dom';
 
-import { Collapse, Button, CardBody, Card, Row, Col } from 'reactstrap';
+import { Collapse, Button, CardBody, Row, Col, Card } from 'reactstrap';
 
-const CallOfDuty = () => {
+const AmongUs = () => {
 
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -14,7 +14,7 @@ const CallOfDuty = () => {
         <Row>
             <Col md="6">
                 <h2 align="center">
-                    Call Of Duty
+                    Among Us
                 </h2>
             </Col>
             <Col align="center" md="6">
@@ -34,11 +34,11 @@ const CallOfDuty = () => {
                         </p>
                         </CardBody>
                     </Card>
-                    <Link className="btn btn-primary" to="/rulescod/">Know More</Link>
+                    <Link className="btn btn-primary" to="/rulesamongus/">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>
     )
 }
 
-export default CallOfDuty
+export default AmongUs

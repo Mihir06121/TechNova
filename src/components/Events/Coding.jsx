@@ -13,7 +13,7 @@ const Technical = () => {
             <Row>
                 <Col md="6">
                     <h2 align="center">
-                        Coding Event
+                        Coding Contest
                     </h2>
                 </Col>
                 <Col align="center" md="6">
