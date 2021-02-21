@@ -5,6 +5,7 @@ import About from './components/About';
 import Events from './components/Events';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import Footer from './components/Footer'
 import AOS from'aos';
 import RulesCod from './components/Rules/Cod';
 import RulesWebDesign from './components/Rules/WebDesign'
@@ -66,6 +67,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
               <Events />
               <Team />
               <Contact />
+              <Footer />
             </Route>
           </Switch>
         </Router>
