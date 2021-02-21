@@ -33,7 +33,7 @@ const WebDesign = () => {
                 </p>
                         </CardBody>
                     </Card>
-                    <Link className="btn btn-primary" to="/ruleswebdesign">Know More</Link>
+                    <Link className="btn btn-primary" to="technova21.netlify.app/ruleswebdesign" target="_blanck">Know More</Link>
                         <Button color="outline-primary" onClick={toggle} style={{ margin: '5%' }}>Close</Button>
             </Collapse> 
         </div>
