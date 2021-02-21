@@ -20,8 +20,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
  const App = () => {
    
-  let suggestion = "This site is still under development, stay tunned"
-  alert(suggestion)
+  // let suggestion = "This site is still under development, stay tunned"
+  // alert(suggestion)
 
     AOS.init({
       duration:'1200',

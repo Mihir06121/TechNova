@@ -29,9 +29,6 @@ const Example = (props) => {
               <NavLink onClick={toggle} className="text-white mr-5" href="#events"><h3>Events</h3></NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={toggle} className="text-white mr-5" href="#gallery"><h3>Gallery</h3></NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink onClick={toggle} className="text-white mr-5" href="#team"><h3>Team</h3></NavLink>
             </NavItem>
             <NavItem>
