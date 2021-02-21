@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Events from './components/Events';
-import Gallery from './components/Gallery';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import AOS from'aos';
@@ -65,7 +64,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
               <Home /><br/>
               <About />
               <Events />
-              <Gallery />
               <Team />
               <Contact />
             </Route>

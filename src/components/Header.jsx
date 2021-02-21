@@ -19,7 +19,7 @@ const Example = (props) => {
     <div className="fixed-top text-white">
       <Navbar color="dark" light expand="sm">
         <NavbarBrand onClick={toggle} className="text-white" href="#home"><h2>TechNova-21</h2></NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler className="text=white bg-light" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
