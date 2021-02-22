@@ -58,6 +58,10 @@ const RulesCoding = () => {
                         <li>
                             Winner will be awarded with Trophy, medal & Certificate.
                         </li>
+                        <li>
+                            <h2 align="center">Impotant</h2>
+                            For Coding contest you need to have account in codeshef or else won't be able to participate. 
+                        </li>
                     </ul>
                 </p>
             </div>
