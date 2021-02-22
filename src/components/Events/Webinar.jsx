@@ -12,12 +12,7 @@ const Webinar = () => {
             </h2>
             <Card className="bg-dark">
                 <CardBody style={{textAlign:"left"}}>
-            <p>TechNova an initiative by Bsc.IT & Bsc.CS Department of 
-                Shree L.R. Tiwari Degree College of Arts, Commerce & Science is providing 1-Day hand on virtual practice on 
-                Artificial Intelligence Workshop absolutely free. The motive behind is to provide Some basic knowledge about Artificial Intelligence.
-                Artificial intelligence is based on the principle that human intelligence 
-                can be defined in a way that a machine can easily mimic it and execute tasks, from the most simple to those that are even more complex. 
-                The goals of artificial intelligence include learning, reasoning, and perception.
+            <p>Contents yet to be added
                 <br/><br/>
                 Date: 12th March 2020
                 Timing: 10:00 am

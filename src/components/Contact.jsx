@@ -28,7 +28,7 @@ const Contact = () => {
                             <h3 className="pb-3">Contact</h3>
                             <h4>
                                 Izhar Sayed<br/>
-                                90827 51010
+                                908271010
                             </h4>
                         </div>
                         </Card>
@@ -39,16 +39,16 @@ const Contact = () => {
                             <h1 className="pt-5 pb-5">E-Sports</h1>
                             <h3 className="pb-3">Contact</h3>
                             <Row>
-                                <Col>
+                                <Col className="img-fluid">
                                     <h4>
                                         Ketan Rathod<br/>
-                                        86899 05216
+                                        8689905216
                                     </h4>
                                 </Col>
                                 <Col>
                                     <h4>
                                         Izhar Sayed<br/>
-                                        90827 51010
+                                        9082751010
                                     </h4>
                                 </Col>
                             </Row>
