@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Row, Col } from 'reactstrap';
 
-const Valorent = () => {
+const Valorant = () => {
 
     return(
 
@@ -10,15 +10,15 @@ const Valorent = () => {
         <Row>
             <Col md="6">
                 <h2 align="center">
-                    Valorent
+                    Valorant
                 </h2>
             </Col>
             <Col align="center" md="6">
-                    <Link className="btn btn-primary" to="/rulesvalorent">Know More</Link>
+                    <Link className="btn btn-primary" to="/rulesValorant">Know More</Link>
             </Col>
         </Row>
         </div>
     )
 }
 
-export default Valorent
+export default Valorant

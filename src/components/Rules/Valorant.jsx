@@ -1,23 +1,31 @@
 import React, {useState} from 'react'
 import { Button, Collapse,  CardBody } from 'reactstrap'
 
-const RuleValorent = () => {
+const RuleValorant = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
 
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
+    // let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
+    // alert(warn)
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
  return(
      <div id="codhead" className="pt-5 pb-5">
+        <div className="p-5"> 
+        <div className="valorantbg"></div>
+        </div>
          <div align="center" className="pt-5">
-             <h1>Valorent</h1>
+             <h1>Valorant</h1>
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
+                <div align="center" className="p-3">
+                    <h2>Registration Dates</h2>
+                    <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
+                    <h3>Late registration will not be entertained</h3>
+                </div>
             <h2 align="center" className="pb-3">General Rules</h2>
                 <p>
                     <ul>
@@ -166,4 +174,4 @@ const RuleValorent = () => {
  )
 }
 
-export default RuleValorent
+export default RuleValorant

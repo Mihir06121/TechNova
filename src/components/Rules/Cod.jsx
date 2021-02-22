@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Button, Collapse,  CardBody } from 'reactstrap'
+import "./Rules.css"
 
 const RuleCod = () => {
     window.onbeforeunload = function () {
@@ -13,11 +14,19 @@ const RuleCod = () => {
 
  return(
      <div id="codhead" className="pt-5 pb-5">
+         <div className="p-5"> 
+         <div className="codbg"></div>
+         </div>
          <div align="center" className="pt-5">
              <h1>Call Of Duty</h1>
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
+                <div align="center" className="p-3">
+                    <h2>Registration Dates</h2>
+                    <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
+                    <h3>Late registration will not be entertained</h3>
+                </div>
             <h2 align="center" className="pb-3">General Rules</h2>
                 <p>
                     <ul>
@@ -123,11 +132,20 @@ const RuleCod = () => {
                 </h3>
                 <div className="p-5">
                     <ul>
-
+                        <li>
+                        STAGE MATCHES
+                        </li>
+                        <li>
+                        TEAM DEATHMATCH<br/>
+                        First team to score 40 kills will win
+                        </li>
+                        <li>
+                        FINAL MATCH
+                        </li>
                         <li>
                         SEARCH AND DESTROY<br/>
 
-                            total of 6 rounds
+                            Total of 6 rounds
                             first 3 rounds to save the objective and defend the attackers from planting the bomb
                             second 3 rounds to attack the objective and plant the bomb 
                         </li>

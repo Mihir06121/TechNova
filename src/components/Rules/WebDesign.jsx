@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Button, Card, CardBody, Collapse } from 'reactstrap'
+import { Button, CardBody, Collapse } from 'reactstrap'
 
 const RuleCod = () => {
     window.onbeforeunload = function () {
@@ -12,6 +12,9 @@ const RuleCod = () => {
 
  return(
      <div className="pt-5 pb-3">
+     <div className="p-5"> 
+     <div className="webbg"></div>
+     </div>
          <div align="center" className="pt-5">
              <h1>Web Design</h1>
          </div>
@@ -19,7 +22,7 @@ const RuleCod = () => {
             <div className="p-5">
                 <div align="center" className="p-3">
                     <h2>Registration Dates</h2>
-                    <h2>Date - to - Date</h2>
+                    <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
                     <h3>Late registration will not be entertained</h3>
                 </div>
             <h2 align="center" className="pb-3">General Rules</h2>
@@ -48,9 +51,6 @@ const RuleCod = () => {
                         </li>
                         <li>
                             Do not leave the whatsapp group until the result is declared or you may loose the winning award.
-                        </li>
-                        <li>
-                            
                         </li>
                         <li>
                             Winner will be awarded with Trophy, medal & Certificate.

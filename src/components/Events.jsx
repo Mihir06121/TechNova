@@ -7,9 +7,10 @@ import Debugging from './Events/Debugging'
 import Quiz from './Events/Quiz'
 import Webinar from './Events/Webinar';
 import CallOfDuty from './Events/CallOfDuty';
-import Valorent from './Events/Valorent';
+import Valorant from './Events/Valorant';
 import Csgo from './Events/Csgo';
 import AmongUs from './Events/AmongUs';
+import "../components/Rules/Rules.css"
 
 const Events = () => {
 
@@ -46,7 +47,7 @@ const Events = () => {
                             <h1 className="pt-5 pb-5">E-Sports</h1>
                         </div>
                         <CallOfDuty /><hr className="bg-light m-2" />
-                        <Valorent /><hr className="bg-light m-2" />
+                        <Valorant /><hr className="bg-light m-2" />
                         <Csgo /><hr className="bg-light m-2" />
                         <AmongUs />
                         </Card>
