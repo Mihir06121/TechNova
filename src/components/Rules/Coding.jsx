@@ -61,7 +61,7 @@ const RulesCoding = () => {
                         
                             <h2 align="center">Impotant</h2>
                             <li>
-                            For Coding contest you need to have account in codeshef or else won't be able to participate. 
+                            For Coding contest you need to have account in Codechef or else won't be able to participate. 
                         </li>
                     </ul>
                 </p>
