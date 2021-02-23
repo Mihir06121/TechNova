@@ -5,8 +5,6 @@ const Csgo = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
     
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -14,7 +12,7 @@ const Csgo = () => {
  return(
      <div id="codhead" className="pt-5 pb-5">
          <div align="center" className="pt-5">
-             <h1>CSGO</h1>
+             <h1>CS:GO</h1>
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
@@ -62,7 +60,7 @@ const Csgo = () => {
                 </p>
             </div>
             <hr className="bg-light m-3" />
-            <div className="p-5">
+            <div>
                 <h1 align="center" className="pb-3">Match Rules</h1>
                 <p>
                     <ul>
@@ -121,12 +119,12 @@ const Csgo = () => {
                 </p>
             </div>
             <hr className="bg-light m-3" />
-            <div className="p-5">
+            <div className="">
                 <h1 align="center" className="pb-3">Modes</h1>
                 <h3 align="center">
                     Multiplayer
                 </h3>
-                <div className="p-5">
+                <div className="">
                     <ul>
 
                         <li>

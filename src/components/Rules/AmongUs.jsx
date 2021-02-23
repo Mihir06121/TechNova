@@ -17,22 +17,12 @@ const RulesAmongus = () => {
          <div align="center" className="pt-5">
              <h1>Among Us</h1>
          </div>
-         <div className="p-5">
-            <p className="p-5">
-            Competitive Among Us uses a point based ranking system to organize players by their performance. Points are awarded based on whether the player is playing for the crew or imposters.
+         <div className="p-3">
+         Competitive Among Us uses a point based ranking system to organize players by their performance. Points are awarded based on whether the player is playing for the crew or imposters.
             <br/>
-            Crewmate:<br/>
-            Win - 3 points <br/>
-            Loss - 0 points<br/>
-            Correct votes - 1 point<br/>
-            Incorrect votes - -1 point<br/>
-            Skip/No vote - 0 point<br/>
-            Imposter:<br/>
-            Win - 5 points<br/>
-            Loss - 0 points<br/>
-            Kill - 1 point<br/>
-            </p>
-            <p className="p-5">
+         </div>
+         <div className="p-5">
+            <p className="">
                 <h1>Rules</h1>
                 <ul>
                     <li>
@@ -45,6 +35,18 @@ const RulesAmongus = () => {
                     Each game will be played with 10 players in each Lobby.
                     </li>
                 </ul>
+            </p><br/>
+            <p className="">
+            <h4>Crewmate:</h4><br/>
+            Win - 3 points <br/>
+            Loss - 0 points<br/>
+            Correct votes - 1 point<br/>
+            Incorrect votes - -1 point<br/>
+            Skip/No vote - 0 point<br/>
+            <h4>Imposter:</h4><br/>
+            Win - 5 points<br/>
+            Loss - 0 points<br/>
+            Kill - 1 point<br/>
             </p>
          </div>
         <div align="center" className="conatiner-fluid">
@@ -54,7 +56,7 @@ const RulesAmongus = () => {
             <Collapse isOpen={isOpen} className="bg-dark">
                 <CardBody className="bg-dark mx-auto">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeD_y-ikVslYqIDcsdWlTrYMHjH-GGMLJihSr0aVX8yRzhvw/viewform?embedded=true" 
-                width="640" height="1182" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                width="300" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </CardBody>
             </Collapse>
         </div>

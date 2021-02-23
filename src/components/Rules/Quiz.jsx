@@ -12,13 +12,13 @@ const RulesQuiz = () => {
             <h1 align="center">
                Rules for Quiz 
             </h1>
-            <div className="p-5">
+            <div>
                 <div align="center" className="p-3">
                     <h2>Registration Dates</h2>
                     <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
                     <h3>Late registration will not be entertained</h3>
                 </div>
-                <ul className="p-5">
+                <ul>
                     <li>
                         Entry Fees: Free
                     </li>
