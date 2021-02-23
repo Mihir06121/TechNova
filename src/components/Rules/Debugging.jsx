@@ -1,12 +1,11 @@
 import React, {useState} from 'react'
-import { Button, Card, CardBody, Collapse } from 'reactstrap'
+import { Button, CardBody, Collapse } from 'reactstrap'
 
 const RulesDebugging = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
+
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
@@ -38,9 +37,6 @@ const RulesDebugging = () => {
                             Entry fees: free
                         </li>
                         <li>
-                            Coding Contest will be held on CodeChef (codechef.com)
-                        </li>
-                        <li>
                             Participants are required to solve the problem in given time to move to pre-elimination round.
                         </li>
                         <li>
@@ -68,8 +64,8 @@ const RulesDebugging = () => {
             </Button>
             <Collapse isOpen={isOpen} className="bg-dark">
                 <CardBody className="bg-dark mx-auto">
-                <iframe className="" src="https://docs.google.com/forms/d/e/1FAIpQLSeRQeJEh9q8T-tOTWELNlUSYp2GiYy-7PZSsmjad8gz6GwgTQ/viewform?embedded=true" 
-                width="340" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjLziNz5h82g-eBa0KqbO4fcMTfVqH1rRWwmGQRP1KfBri7Q/viewform?embedded=true" 
+                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </CardBody>
             </Collapse>
         </div>

@@ -12,13 +12,12 @@ const Webinar = () => {
             </h2>
             <Card className="bg-dark">
                 <CardBody style={{textAlign:"left"}}>
-            <p>Contents yet to be added
+            <p><h1>PYTHON WITH AI</h1>
                 <br/><br/>
                 Date: 12th March 2020
-                Timing: 10:00 am
+                Timing: 11:00 am
                 <br/><br/>
                 Note: Participants will be awarded with Certificate
-
                 </p>
                 </CardBody>
                 <div align="center" className="pt-4 pb-4">

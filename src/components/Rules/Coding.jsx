@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Button, Card, CardBody, Collapse } from 'reactstrap'
+import { Button, CardBody, Collapse } from 'reactstrap'
 
 const RulesCoding = () => {
     window.onbeforeunload = function () {
@@ -38,7 +38,7 @@ const RulesCoding = () => {
                             Entry fees: free
                         </li>
                         <li>
-                            Coding Contest will be held on CodeChef (codechef.com)
+                            Coding Contest will be held on CodeChef <a href="https://www.codechef.com/">(codechef.com)</a>
                         </li>
                         <li>
                             Participants are required to solve the problem in given time to move to pre-elimination round.

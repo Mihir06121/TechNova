@@ -87,13 +87,26 @@ const RuleValorant = () => {
             <hr className="bg-light m-3" />
             <div className="p-5">
                 <h3>
-                MAPS:-<br/>
-                Bind<br/>
-                Haven<br/>
-                Split<br/>
-                Ascent<br/>
-                Icebox
-                </h3>
+                MAPS:-<br/></h3>
+                <ul>
+                    <h5>
+                    <li>
+                        Bind
+                    </li>
+                    <li>
+                        Haven
+                    </li>
+                    <li>
+                        Split
+                    </li>
+                    <li>
+                        Ascent
+                    </li>
+                    <li>
+                        Icebox
+                    </li>
+                    </h5>
+                </ul>
             </div>
             <div>
             <div className="p-5">

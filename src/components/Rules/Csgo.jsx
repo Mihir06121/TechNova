@@ -133,7 +133,7 @@ const Csgo = () => {
                             total of 6 rounds
                             first 3 rounds to save the objective and defend the attackers from planting the bomb
                             second 3 rounds to attack the objective and plant the bomb 
-                        </li>
+                        </li><br/>
                         <li>
                         DOMINATION<br/>
 
@@ -141,7 +141,7 @@ const Csgo = () => {
                             there are 3 objectives in the map A (alpha), B (bravo) and C (charlie)
                             first team to reach 150 points wins the match
                             Time Limit : 300 secs 
-                        </li>
+                        </li><br/>
                         <li>
                         HARDPOINT<br/>
 
