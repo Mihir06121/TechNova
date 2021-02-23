@@ -5,8 +5,6 @@ const RuleCod = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
@@ -30,8 +28,8 @@ const RuleCod = () => {
             </Button>
             <Collapse isOpen={isOpen} className="bg-dark">
                 <CardBody className="bg-dark mx-auto">
-                <iframe className="" src="https://docs.google.com/forms/d/e/1FAIpQLSeRQeJEh9q8T-tOTWELNlUSYp2GiYy-7PZSsmjad8gz6GwgTQ/viewform?embedded=true" 
-                width="340" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3n4m5NyFF064Ka8NxnhVhODBBnHAd_jS2BuX4HUZ1Qd3Urw/viewform?embedded=true" 
+                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </CardBody>
             </Collapse>
         </div>

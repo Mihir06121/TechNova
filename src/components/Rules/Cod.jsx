@@ -6,15 +6,13 @@ const RuleCod = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
     
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
  return(
      <div id="codhead" className="pt-5 pb-5">
-         <div className="p-5"> 
+         <div className="img-fluid"> 
          <div className="codbg"></div>
          </div>
          <div align="center" className="pt-5">
@@ -125,47 +123,34 @@ const RuleCod = () => {
                 </p>
             </div>
             <hr className="bg-light m-3" />
-            <div className="p-5">
+            <div className="">
                 <h1 align="center" className="pb-3">Modes</h1>
                 <h3 align="center">
                     Multiplayer
                 </h3>
                 <div className="p-5">
-                    <ul>
-                        <li>
                         STAGE MATCHES
-                        </li>
-                        <li>
-                        TEAM DEATHMATCH<br/>
+                        TEAM DEATHMATCH<br/><br/>
                         First team to score 40 kills will win
-                        </li>
-                        <li>
                         FINAL MATCH
-                        </li>
-                        <li>
-                        SEARCH AND DESTROY<br/>
+                        SEARCH AND DESTROY<br/><br/>
 
                             Total of 6 rounds
                             first 3 rounds to save the objective and defend the attackers from planting the bomb
                             second 3 rounds to attack the objective and plant the bomb 
-                        </li>
-                        <li>
-                        DOMINATION<br/>
+                        DOMINATION<br/><br/>
 
                             Consisting of 2 rounds
                             there are 3 objectives in the map A (alpha), B (bravo) and C (charlie)
                             first team to reach 150 points wins the match
                             Time Limit : 300 secs 
-                        </li>
-                        <li>
-                        HARDPOINT<br/>
+                            <br/><br/>
+                        HARDPOINT<br/><br/>
 
                             Secure a particular location as hardpoint
                             Kill the enemy in hardpoint and secure points
                             first team to reach 150 points wins the match
                             Time limit : 300 secs 
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -175,8 +160,8 @@ const RuleCod = () => {
             </Button>
             <Collapse isOpen={isOpen} className="bg-dark">
                 <CardBody className="bg-dark mx-auto">
-                <iframe className="" src="https://docs.google.com/forms/d/e/1FAIpQLSeRQeJEh9q8T-tOTWELNlUSYp2GiYy-7PZSsmjad8gz6GwgTQ/viewform?embedded=true" 
-                width="340" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDQjpft_Ca_0K--JV8xQt3peTijDx3SECKx-TyLiByInjt2Q/viewform?embedded=true" 
+                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </CardBody>
             </Collapse>
         </div>

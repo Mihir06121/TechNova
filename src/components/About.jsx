@@ -7,16 +7,14 @@ const About = () => {
                 <h1>About TechNova</h1>
             </div>
             <div className="p-5 pt-5 pb-5">
-                <p>SHREE L. R. TIWARI DEGREE COLLEGE OF ARTS, COMMERCE & SCIENCE in Mira Road was established on 26th June 2018. 
-                    It got its permission from the Government of Maharashtra vide permission no – Shashan order No. – NGC 2018/100/18 Mashi-4 dated 15th June 2018. 
-                    The College functions under the aegis of University of Mumbai with affiliation No. – Aff/ICD/2018-19/645, and the college code as 1064. 
-                    The college offers traditional besides professional courses, namely, Bachelor of Commerce, Bachelor of Mass 
-                    Media and Communication, Bachelor in Accounts and Finance, Bachelor in Banking and Insurance, Bachelor of Management Studies, 
-                    and B.Sc. in Information Technology, B.Sc. in Computer Science, B.Sc. in Hospitality study and B.Sc. in Data Science.
-                    The college has a spacious campus with ideal building and state of the art infrastructure. 
-                    It is notable for quality education. Previously, students of this neighborhood faced difficulties in getting admission to the colleges positioned in Mira-Road. 
-                    Moreover, they had to face hardships while commuting by the overcrowded trains. Many female students had to drop out of college due to a lack of higher 
-                    education facilities in the locality.
+                <p> 
+                TECH-NOVA 2020 an initiative by our IT/CS department students of Shree L R Tiwari Degree College.
+
+                Tech-nova includes some really mesmerizing events 
+                Tech-nova 2019 was a grand success with amazing events, students experiencing awesomeness, joy every moment, this is a platform where you get to show off your spectacular skills in gaming, coding and other fun-loving events. Tech-nova is brought to you with more mind-boggling events this year which we're sure you're awaiting. Keeping the current situation in mind for the  well-being and safety of our participants we've are introducing our event online i.e., contactless. 
+                We see to it that our working staff follows proper sanitation and also the rules announced by our Maharashtra Government. 
+
+                Let us tell you TECH-NOVA is coming with a banger!!!
                 </p>
             </div>
         </div>

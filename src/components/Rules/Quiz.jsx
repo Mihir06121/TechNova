@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Button, Collapse,  CardBody } from 'reactstrap'
 
 const RulesQuiz = () => {
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
+    const [isOpen, setIsOpen] = useState(false);
+    const toggle = () => setIsOpen(!isOpen);
     return(
         <div className="p-5">
         <div className="p-5"> 
@@ -31,6 +32,17 @@ const RulesQuiz = () => {
                 <li>Winner will be awarded a trophy, medal and Certificate.</li>
                 </ul>
             </div>
+        <div align="center" className="conatiner-fluid">
+            <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
+            Register
+            </Button>
+            <Collapse isOpen={isOpen} className="bg-dark">
+                <CardBody className="bg-dark mx-auto">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfySq-XubwNocItr6Xk1S-IySN1KJHGXUDJ7q2U1G-Fc4KZ4A/viewform?embedded=true" 
+                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </CardBody>
+            </Collapse>
+        </div>
         </div>
     )
 }

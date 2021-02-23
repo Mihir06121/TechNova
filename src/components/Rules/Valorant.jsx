@@ -13,13 +13,13 @@ const RuleValorant = () => {
 
  return(
      <div id="codhead" className="pt-5 pb-5">
-        <div className="p-5"> 
+        <div className=""> 
         <div className="valorantbg"></div>
         </div>
-         <div align="center" className="pt-5">
+         <div align="center">
              <h1>Valorant</h1>
          </div>
-        <div className="pt-5 pb-5">
+        <div className="pb-5">
             <div className="p-5">
                 <div align="center" className="p-3">
                     <h2>Registration Dates</h2>
@@ -32,35 +32,10 @@ const RuleValorant = () => {
                         <li>By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants
                             and the MOBILE E-SPORTS® Staff. </li>
                         <li>
-                        The usage of ‘jailbroken’ or ‘rooted’ devices in tournament matches is not permitted
+                        Valorant nickname has to be in format Riot ID#Tagline. (Example:
+                        Mrsmith#EUNE). Any other format will be invalid.
                         </li>
-                        <li>
-                        It is strictly prohibited to gamble or bet during an ongoing tournament. This rule applies to players or a team management that has any relations to a participating party.
-                        Such actions can give unfair advantage to close associates of teams that are playing. 
-                        </li>
-                        <li>
-                        We reserve the right to edit the rules at any time and disqualify teams for reasons not stated in this list or take other action. 
-                        </li>
-                        <li>
-                        All participants agree that their matches may be streamed and/or recorded and published on our platforms such as Youtube. 
-                        </li>
-                        <li>
-                        It is prohibited to spam or use offensive messages. 
-                        </li>
-                        <li>
-                        During an on-going tournament, players are not allowed to change their in-game name. Clan Tags before in-game
-                        names are allowed to be changed. 
-                        </li>
-                        <li>
-                        Team members that are aware of a fellow hacker or cheater’s actions yet failed to come forth in reporting him will
-                        be banned from tournament. 
-                        </li>
-                        <li>
-                        Only touch input is allowed to control the game in this tournament.
-                        </li>
-                        <li>
-                        Ignorance of rules does not justify rule breaking. If you have questions about any rules, contact our support. 
-                        </li>
+                        
                     </ul>
                 </p>
             </div>
@@ -70,14 +45,17 @@ const RuleValorant = () => {
                 <p>
                     <ul>
                         <li>
-                        The usage of cheats, hacks, or any other third-party applications that give you an unfair advantage over your opponents will result in immediate disqualification. 
+                        Before the Match:<br/>
+                            Tournament Round will start as scheduled unless said otherwise                        
                         </li>
                         <li>
                         Teams that attempt to use players which are not registered in their team may be disqualified. 
                         </li>
                         <li>
-                        All players must remain in the game’s lobby following the conclusion of each match. This allows us to view their final score on the scoreboard.
-                        Players that leave the lobby earlier and thus do not show up on the scoreboard may be suspended from on-going tournaments.
+                        During the Match:
+                        If one of the teams will not pick all the agents in the character selection
+                        screen and the game goes back to the
+                        lobby, the game has to be remade
                         </li>
                         <li>
                         Once the match has started, only the players that are in the lobby are eligible to play. In the case of a player disconnecting and is not able to join back,
@@ -87,77 +65,79 @@ const RuleValorant = () => {
                         It is not allowed to switch to the spectator mode. If a player is caught using the spectator mode, that team will automatically have to forfeit the current round of that match. 
                         </li>
                         <li>
-                        Account sharing will be met with disqualification. Only the original owner of the Call of Duty: Mobile account may use it in tournaments. 
+                        If any of the players are not connected to the game before the counter reaches 0, the team can call a remake and the game has to be remade 
                         </li>
                         <li>
                         Abusing in-game glitches that give a team an unfair advantage is not permitted. Teams caught doing so may be disqualified. 
                         </li>
                         <li>
-                        Depending on the settings for each individual tournament, more rules may apply for every match, such as banned items. If any special rules apply, then they may be found in the tournament’s registration article on this website. 
+                        If the game started on the wrong map, the game has to be remade.
                         </li>
                         <li>
-                        Operator Restrictions cover the following: None. 
-                        </li>
-                        <li>
-                        Scorestreak restrictions: None.
-                        </li>
-                        <li>
-                        Weapon Restrictions: None.
-                        </li>
-                        <li>
-                        Skins: Weapon Variants and Purchased Weapons that alter the default iron sights and/or ANY weapon properties (
-                        damage, speed, etc). 
-                        </li>
-                        <li>
-                        Perk Restrictions: None. 
-                        </li>
-                        <li>
-                        Banned Weapon Perks (Gunsmith): None. 
-                        </li>
-                        <li>
-                        Attachment Restrictions: None. 
-                        </li>
-                        <li>
-                        Equipment Restrictions: None. 
+                        In order to do the remake, all the players have to leave the match. Start the
+                        next game as soon as possible. Both team captains will have to write ready
+                        again. If the team is not ready by 5 minutes after the remake,
+                        the team which is not ready will be disqualified. Game can be remade only once,
+                        the game has to be played in the way it started after the remake, even if the
+                        issues will occur.
                         </li>
                     </ul>
                 </p>
             </div>
             <hr className="bg-light m-3" />
             <div className="p-5">
-                <h1 align="center" className="pb-3">Modes</h1>
-                <h3 align="center">
-                    Multiplayer
+                <h3>
+                MAPS:-<br/>
+                Bind<br/>
+                Haven<br/>
+                Split<br/>
+                Ascent<br/>
+                Icebox
                 </h3>
-                <div className="p-5">
-                    <ul>
-
-                        <li>
-                        SEARCH AND DESTROY<br/>
-
-                            total of 6 rounds
-                            first 3 rounds to save the objective and defend the attackers from planting the bomb
-                            second 3 rounds to attack the objective and plant the bomb 
-                        </li>
-                        <li>
-                        DOMINATION<br/>
-
-                            Consisting of 2 rounds
-                            there are 3 objectives in the map A (alpha), B (bravo) and C (charlie)
-                            first team to reach 150 points wins the match
-                            Time Limit : 300 secs 
-                        </li>
-                        <li>
-                        HARDPOINT<br/>
-
-                            Secure a particular location as hardpoint
-                            Kill the enemy in hardpoint and secure points
-                            first team to reach 150 points wins the match
-                            Time limit : 300 secs 
-                        </li>
-                    </ul>
-                </div>
             </div>
+            <div>
+            <div className="p-5">
+                <h1>SERVER SETUP</h1>
+                <h5>Map: depending on which map was selected to be played from the map pool<br/><br/>
+                Mode: Standard<br/>
+                Options<br/>
+                Allow Cheats: Off<br/>
+                Tournament Mode: On<br/>
+                Overtime: Win by Two: On<br/>
+                Primary servers: Mumbai<br/>
+                </h5>
+            </div>
+            </div>
+            <div className="p-5">
+                <h1>STREAMING</h1>
+                We reserves exclusive rights for broadcasting and streaming for all its events<br/><br/>
+                We do however allow people to personally stream their matches and games. If you
+                decide to stream, we REQUIRE that you include “Technova21” in your streaming
+                title and we also RECOMMEND that you are using delay on your stream,
+                2 min or more is recommended
+            </div>
+        </div>
+        <div className="p-5">
+            <h1>
+                CHEATING
+            </h1>
+            <p>
+            It is forbidden to cheat, modify the game files, exploit bugs, and/or use any
+            third-party application which would give an unfair advantage against other
+            users.<br/><br/>
+            All cheats are completely forbidden to use under any circumstance while playing
+            in any event at Technova
+            Using any cheat will result in bans and disqualifications. This includes, but
+            are not limited to:<br/>
+            ESP
+            Radar hacks<br/>
+            Wallhacks<br/>
+            Speed hacks<br/>
+            Aim hacks<br/>
+            Hitbox manipulation<br/>
+            Teleportation (any kind of teleportation, which is not possible in the game)<br/>
+            The usage of a bug/bugs to gain an advantage versus your opponents
+            </p>
         </div>
         <div align="center" className="conatiner-fluid">
             <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
@@ -165,8 +145,8 @@ const RuleValorant = () => {
             </Button>
             <Collapse isOpen={isOpen} className="bg-dark">
                 <CardBody className="bg-dark mx-auto">
-                <iframe className="" src="https://docs.google.com/forms/d/e/1FAIpQLSeRQeJEh9q8T-tOTWELNlUSYp2GiYy-7PZSsmjad8gz6GwgTQ/viewform?embedded=true" 
-                width="340" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdB8VmgNUCkuZeABb-yz1OyKjzReH6fB-NT6au3XfH8TljhCA/viewform?embedded=true" 
+                width="300" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </CardBody>
             </Collapse>
         </div>
