@@ -26,6 +26,7 @@ const Events = () => {
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">Technical Day</h1>
+                            <h6>Date:-11th March 2021</h6>
                         </div>
                             <Coding/><hr className="bg-light m-2" />
                             <WebDesign /><hr className="bg-light m-2" />
@@ -37,6 +38,7 @@ const Events = () => {
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">Webinar</h1>
+                            <h6>Date:-12th March 2021</h6>
                         </div>
                         <Webinar />
                         </Card>
@@ -45,6 +47,7 @@ const Events = () => {
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">E-Sports</h1>
+                            <h6>Date:-13th March 2021</h6>
                         </div>
                         <CallOfDuty /><hr className="bg-light m-2" />
                         <Valorant /><hr className="bg-light m-2" />
