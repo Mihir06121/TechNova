@@ -12,6 +12,10 @@ const Quiz = () => {
                 <h2 align="center">
                     Quiz
                 </h2>
+                    <div align="center">
+                    <h5>Timings</h5>
+                    <h5>02:00 pm</h5>
+                    </div>
             </Col>
             <Col align="center" md="6">
                     <Link className="btn btn-primary" to="/rulesquiz/">Know More</Link>

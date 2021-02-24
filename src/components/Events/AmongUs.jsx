@@ -12,6 +12,10 @@ const AmongUs = () => {
                 <h2 align="center">
                     Among Us
                 </h2>
+                    <div align="center">
+                    <h5>Timings</h5>
+                    <h5>11:00 am</h5>
+                    </div>
             </Col>
             <Col align="center" md="6">
                 <Link className="btn btn-primary" to="/rulesamongus/">Know More</Link>

@@ -11,6 +11,10 @@ const Technical = () => {
                     <h2 align="center">
                         Coding Contest
                     </h2>
+                    <div align="center">
+                    <h5>Timings</h5>
+                    <h5>09:00 am</h5>
+                    </div>
                 </Col>
                 <Col align="center" md="6">
                     <Link className="btn btn-primary" to="/rulescoding">Know More</Link>

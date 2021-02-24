@@ -12,6 +12,10 @@ const Debugging = () => {
                 <h2 align="center">
                     Debugging
                 </h2>
+                    <div align="center">
+                    <h5>Timings</h5>
+                    <h5>01:00 pm</h5>
+                    </div>
             </Col>
             <Col align="center" md="6">
                     <Link className="btn btn-primary" to="/rulesdebugging">Know More</Link>

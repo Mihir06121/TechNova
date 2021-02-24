@@ -15,7 +15,7 @@ const Webinar = () => {
             <p><h3>PYTHON WITH <br/> ARTIFICAL INTELLIGENCE</h3>
                 <br/><br/>
                 Date: 12th March 2020<br/>
-                Timing: 11:00 am
+                Timing: 10:00 am
                 <br/><br/>
                 Note: Participants will be awarded with Certificate
                 </p>
