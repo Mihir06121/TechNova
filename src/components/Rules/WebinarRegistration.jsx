@@ -5,8 +5,6 @@ const RuleCod = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
 
  return(
      <div className="pt-5 pb-3">
@@ -23,15 +21,7 @@ const RuleCod = () => {
             </div>
         </div>
         <div align="center" className="conatiner-fluid">
-            <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
-            Register
-            </Button>
-            <Collapse isOpen={isOpen} className="bg-dark">
-                <CardBody className="bg-dark mx-auto">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3n4m5NyFF064Ka8NxnhVhODBBnHAd_jS2BuX4HUZ1Qd3Urw/viewform?embedded=true" 
-                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </CardBody>
-            </Collapse>
+        <Button color="primary"><a href="https://forms.gle/CHZkvrMk7F2Wdcwu6" className="btn btn-primary">Register</a></Button>
         </div>
      </div>
  )

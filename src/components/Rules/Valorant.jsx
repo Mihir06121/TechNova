@@ -150,15 +150,7 @@ const RuleValorant = () => {
             </p>
         </div>
         <div align="center" className="conatiner-fluid">
-            <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
-            Register
-            </Button>
-            <Collapse isOpen={isOpen} className="bg-dark">
-                <CardBody className="bg-dark mx-auto">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdB8VmgNUCkuZeABb-yz1OyKjzReH6fB-NT6au3XfH8TljhCA/viewform?embedded=true" 
-                width="300" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </CardBody>
-            </Collapse>
+        <Button color="primary"><a href="https://forms.gle/q4J2msxoYxS6arvQ6" className="btn btn-primary">Register</a></Button>
         </div>
      </div>
  )
