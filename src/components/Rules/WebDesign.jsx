@@ -12,10 +12,10 @@ const RuleCod = () => {
 
  return(
      <div className="pt-5 pb-3">
-     <div className="p-5"> 
+     <div className=""> 
      <div className="webbg"></div>
      </div>
-         <div align="center" className="pt-5">
+         <div align="center" className="pt-1">
              <h1>Web Design</h1>
          </div>
         <div className="pt-3 pb-5">
