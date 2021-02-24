@@ -13,7 +13,7 @@ const Contact = () => {
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">Technical Day</h1>
-                            <h3 className="pb-3">Contact</h3>
+                            <h2 className="pb-3"><b>Contact</b></h2>
                             <h4>
                             Mihir Panchal <br/>
                             7700983123
@@ -25,7 +25,7 @@ const Contact = () => {
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">Webinar</h1>
-                            <h3 className="pb-3">Contact</h3>
+                            <h2 className="pb-3"><b>Contact</b></h2>
                             <h4>
                                 Izhar Sayed<br/>
                                 908271010
@@ -37,7 +37,7 @@ const Contact = () => {
                         <Card className="bg-dark" body>
                         <div align="center" className="pt-5 pb-5">
                             <h1 className="pt-5 pb-5">E-Sports</h1>
-                            <h3 className="pb-3">Contact</h3>
+                            <h2 className="pb-3"><b>Contact</b></h2>
                             <Row>
                                 <Col className="img-fluid">
                                     <h4>
