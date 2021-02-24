@@ -5,8 +5,6 @@ const RuleCod = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    alert(warn)
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
@@ -53,8 +51,13 @@ const RuleCod = () => {
                             Do not leave the whatsapp group until the result is declared or you may loose the winning award.
                         </li>
                         <li>
-                            Winner will be awarded with Trophy, medal & Certificate.
+                            Winner will be awarded with Certificate.
                         </li>
+                        
+                        <h2 align="center">Impotant</h2>
+                        <li>
+                        For Coding contest you need to have account in Codechef or else won't be able to participate. 
+                    </li>
                     </ul>
                 </p>
             </div>

@@ -5,9 +5,6 @@ const RuleValorant = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-
-    // let warn = "These are just dummy rules, some rules are yet to be changed. Stay Tuned!"
-    // alert(warn)
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
