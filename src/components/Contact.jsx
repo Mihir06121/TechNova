@@ -56,6 +56,20 @@ const Contact = () => {
                         </Card>
                     </Col>
                 </Row>
+                <Row align="center" className="p-5">
+                    <Col>
+                    <div className="pb-5">
+                    <i className="fab fa-google fa-2x"></i><br/>
+                    <a href="https://www.gmail.com">Get in touch</a>
+                    </div>
+                    </Col>
+                    <Col>
+                    <div>
+                    <i className="fab fa-instagram fa-2x"></i><br/>
+                    <a className="text-whites" href="https://www.instagram.com/technova_slrtdc/">Like, Follow and Support in Instagram</a>
+                    </div>
+                    </Col>
+                </Row>
             </div>
         </div>
     )
