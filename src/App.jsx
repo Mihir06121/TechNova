@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Events from './components/Events';
 import Gallery from './components/Gallery';
-import Team from './components/Team';
+// import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer'
 import AOS from'aos';
@@ -67,7 +67,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
               <About />
               <Events />
               <Gallery />
-              <Team />
+              {/* <Team /> */}
               <Contact />
               <Footer />
             </Route>

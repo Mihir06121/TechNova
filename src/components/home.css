@@ -29,3 +29,16 @@ body{
     position: relative;
     filter: brightness(200%);
 }
+
+.team_img{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 786px) {
+    .team_img{
+        height: 100%;
+        width: 100%;
+    }
+}
