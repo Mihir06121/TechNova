@@ -105,7 +105,7 @@ const RuleCod = () => {
                         </li>
                         <li>
                         Skins: Weapon Variants and Purchased Weapons that alter the default iron sights and/or ANY weapon properties (
-                        damage, speed, etc). 
+                        damage, speed, etc) are not allowed. 
                         </li>
                         <li>
                         Perk Restrictions: None. 

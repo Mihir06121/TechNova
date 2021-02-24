@@ -12,7 +12,7 @@ const About = () => {
                 of Arts, Commerce and Science.
 
                 Tech-nova includes some really mesmerizing events.<br/>
-                Tech-nova 2019 was a grand success with amazing events, students experiencing awesomeness, joy every moment, 
+                Tech-nova 2k20 was a grand success with amazing events, students experiencing awesomeness, joy every moment, 
                 this is a platform where you get to show off your spectacular skills in gaming, coding and other fun-loving events. 
                 Tech-nova is brought to you with more mind-boggling events this year which we're sure you're awaiting. <br/>
                 Keeping the current situation in mind for the  well-being and safety of our participants 
