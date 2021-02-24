@@ -10,7 +10,9 @@ const Csgo = () => {
     const toggle = () => setIsOpen(!isOpen);
 
  return(
-     <div id="codhead" className="pt-5 pb-5">
+     <div id="codhead" className="pt-5 pb-5"> <div className=""> 
+     <div className="csgobg"></div>
+     </div>
          <div align="center" className="pt-5">
              <h1>CS:GO</h1>
          </div>
@@ -27,8 +29,8 @@ const Csgo = () => {
                         <li>By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants
                             and the MOBILE E-SPORTS® Staff. </li>
                         <li>
-                        The usage of ‘jailbroken’ or ‘rooted’ devices in tournament matches is not permitted
                         </li>
+                        It is a 5 (Five) Player Team Tournament
                         <li>
                         It is strictly prohibited to gamble or bet during an ongoing tournament. This rule applies to players or a team management that has any relations to a participating party.
                         Such actions can give unfair advantage to close associates of teams that are playing. 
@@ -75,8 +77,8 @@ const Csgo = () => {
                         Players that leave the lobby earlier and thus do not show up on the scoreboard may be suspended from on-going tournaments.
                         </li>
                         <li>
-                        Once the match has started, only the players that are in the lobby are eligible to play. In the case of a player disconnecting and is not able to join back,
-                        a team is allowed to have a registered player on their team to substitute. This is allowed only once per match. 
+                        Substitutions are not applicable, registered 5 must play through duration of
+                        tournament.
                         </li>
                         <li>
                         It is not allowed to switch to the spectator mode. If a player is caught using the spectator mode, that team will automatically have to forfeit the current round of that match. 
@@ -91,64 +93,44 @@ const Csgo = () => {
                         Depending on the settings for each individual tournament, more rules may apply for every match, such as banned items. If any special rules apply, then they may be found in the tournament’s registration article on this website. 
                         </li>
                         <li>
-                        Operator Restrictions cover the following: None. 
+                        The first team to win 16 rounds will be declared the victor of the match and
+                        will advance
+                        </li><li> 
+                        In case of a tie after the regulation rounds end (15-15), 6 extra rounds
+                        will be played. 
                         </li>
                         <li>
-                        Scorestreak restrictions: None.
+                        The map each team will play will be picked through a map veto.
+                        </li><li>
+                        Starting side will be chosen by a knife round.
                         </li>
                         <li>
-                        Weapon Restrictions: None.
-                        </li>
-                        <li>
-                        Skins: Weapon Variants and Purchased Weapons that alter the default iron sights and/or ANY weapon properties (
-                        damage, speed, etc). 
-                        </li>
-                        <li>
-                        Perk Restrictions: None. 
-                        </li>
-                        <li>
-                        Banned Weapon Perks (Gunsmith): None. 
-                        </li>
-                        <li>
-                        Attachment Restrictions: None. 
-                        </li>
-                        <li>
-                        Equipment Restrictions: None. 
+                        Each individual round is 1:45 in duration
                         </li>
                     </ul>
                 </p>
             </div>
             <hr className="bg-light m-3" />
             <div className="">
-                <h1 align="center" className="pb-3">Modes</h1>
-                <h3 align="center">
-                    Multiplayer
-                </h3>
+                <h1 align="center" className="pb-3">GAME SPECIFIC RULES</h1>
                 <div className="">
                     <ul>
-
                         <li>
-                        SEARCH AND DESTROY<br/>
-
-                            total of 6 rounds
-                            first 3 rounds to save the objective and defend the attackers from planting the bomb
-                            second 3 rounds to attack the objective and plant the bomb 
-                        </li><br/>
+                        Game version – The tournament will use the latest available version of the game
+                        client.
+                        </li>
                         <li>
-                        DOMINATION<br/>
-
-                            Consisting of 2 rounds
-                            there are 3 objectives in the map A (alpha), B (bravo) and C (charlie)
-                            first team to reach 150 points wins the match
-                            Time Limit : 300 secs 
-                        </li><br/>
+                        Anti-Cheat – Tournament servers will be VAC enabled and will require VAC enabled
+                        clients.
+                        </li>
                         <li>
-                        HARDPOINT<br/>
-
-                            Secure a particular location as hardpoint
-                            Kill the enemy in hardpoint and secure points
-                            first team to reach 150 points wins the match
-                            Time limit : 300 secs 
+                        If a player is VAC banned then they are not allowed to take part in
+                        a match.
+                        </li>
+                        <li>
+                        In-Game chat – It is not allowed to write about things that are not directly
+                        related to the match in the in-game chat.<br/>                        This is including but not limited to discussion of the technical
+                        issues and any sort of advertisement.
                         </li>
                     </ul>
                 </div>
