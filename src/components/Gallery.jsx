@@ -42,7 +42,7 @@ const Gallery = () => {
             <h1 align="center"> Gallery</h1>
             <div className="">
                 <Container className="themed-container" fluid={true}>
-                    <h3 className="p-3" align="center">A Glimpse of TechNova2K19</h3>
+                    <h3 className="p-3" align="center">A Glimpse of TechNova 19-20</h3>
                     <Row>
                         <Col className="pb-3" sm="6"><UncontrolledCarousel items={items2} /></Col>
                         <Col sm="6"><UncontrolledCarousel items={items} /></Col>
