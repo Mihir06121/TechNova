@@ -64,7 +64,7 @@ const RulesCoding = () => {
             </div>
         </div>
         <div align="center" className="conatiner-fluid">
-        <Button color="primary"><a href="https://forms.gle/7YH7KkpwLXZUEHug7" className="btn btn-primary">Register</a></Button>
+        <Button color="primary"><a href="https://forms.gle/6SPXiejR1FReKWD58" className="btn btn-primary">Register</a></Button>
         </div>
      </div>
  )
