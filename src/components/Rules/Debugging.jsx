@@ -59,15 +59,7 @@ const RulesDebugging = () => {
             </div>
         </div>
         <div align="center" className="conatiner-fluid">
-            <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
-            Register
-            </Button>
-            <Collapse isOpen={isOpen} className="bg-dark">
-                <CardBody className="bg-dark mx-auto">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjLziNz5h82g-eBa0KqbO4fcMTfVqH1rRWwmGQRP1KfBri7Q/viewform?embedded=true" 
-                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </CardBody>
-            </Collapse>
+        <Button color="primary"><a href="https://forms.gle/c3FvzCudPZWoHbhi6" className="btn btn-primary">Register</a></Button>
         </div>
      </div>
  )

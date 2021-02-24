@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import { Button, Collapse,  CardBody } from 'reactstrap'
 
 const RulesQuiz = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
     return(
         <div className="p-5">
         <div className="p-5"> 
@@ -33,15 +31,7 @@ const RulesQuiz = () => {
                 </ul>
             </div>
         <div align="center" className="conatiner-fluid">
-            <Button color="primary" onClick={toggle} id="toggle" style={{ marginBottom: '1rem' }}>
-            Register
-            </Button>
-            <Collapse isOpen={isOpen} className="bg-dark">
-                <CardBody className="bg-dark mx-auto">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfySq-XubwNocItr6Xk1S-IySN1KJHGXUDJ7q2U1G-Fc4KZ4A/viewform?embedded=true" 
-                width="340" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </CardBody>
-            </Collapse>
+        <a href="https://forms.gle/2HE5wmYZt4TcDaH66" className="btn btn-primary">Register</a>
         </div>
         </div>
     )

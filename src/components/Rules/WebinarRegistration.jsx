@@ -21,7 +21,7 @@ const RuleCod = () => {
             </div>
         </div>
         <div align="center" className="conatiner-fluid">
-        <Button color="primary"><a href="https://forms.gle/CHZkvrMk7F2Wdcwu6" className="btn btn-primary">Register</a></Button>
+        <a href="https://forms.gle/CHZkvrMk7F2Wdcwu6" className="btn btn-primary">Register</a>
         </div>
      </div>
  )
