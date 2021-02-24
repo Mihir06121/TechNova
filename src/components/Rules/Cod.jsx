@@ -137,7 +137,7 @@ const RuleCod = () => {
 
                             Total of 6 rounds
                             first 3 rounds to save the objective and defend the attackers from planting the bomb
-                            second 3 rounds to attack the objective and plant the bomb 
+                            second 3 rounds to attack the objective and plant the bomb <br/><br/>
                         DOMINATION<br/><br/>
 
                             Consisting of 2 rounds

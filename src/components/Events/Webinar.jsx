@@ -14,7 +14,7 @@ const Webinar = () => {
                 <CardBody style={{textAlign:"left"}}>
             <p><h1>PYTHON WITH ARTIFICAL INTELIGENCE</h1>
                 <br/><br/>
-                Date: 12th March 2020
+                Date: 12th March 2020<br/>
                 Timing: 11:00 am
                 <br/><br/>
                 Note: Participants will be awarded with Certificate
