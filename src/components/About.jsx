@@ -8,10 +8,15 @@ const About = () => {
             </div>
             <div className="p-5 pt-5 pb-5">
                 <p> 
-                TECH-NOVA 2020 an initiative by our IT/CS department students of Shree L R Tiwari Degree College.
+                TECH-NOVA 2020 an initiative by our IT/CS department students of Shree L R Tiwari Degree College
+                of Arts, Commerce and Science.
 
-                Tech-nova includes some really mesmerizing events 
-                Tech-nova 2019 was a grand success with amazing events, students experiencing awesomeness, joy every moment, this is a platform where you get to show off your spectacular skills in gaming, coding and other fun-loving events. Tech-nova is brought to you with more mind-boggling events this year which we're sure you're awaiting. Keeping the current situation in mind for the  well-being and safety of our participants we've are introducing our event online i.e., contactless. 
+                Tech-nova includes some really mesmerizing events.<br/>
+                Tech-nova 2019 was a grand success with amazing events, students experiencing awesomeness, joy every moment, 
+                this is a platform where you get to show off your spectacular skills in gaming, coding and other fun-loving events. 
+                Tech-nova is brought to you with more mind-boggling events this year which we're sure you're awaiting. <br/>
+                Keeping the current situation in mind for the  well-being and safety of our participants 
+                swe've are introducing our event online i.e., contactless. 
                 We see to it that our working staff follows proper sanitation and also the rules announced by our Maharashtra Government. 
 
                 Let us tell you TECH-NOVA is coming with a banger!!!
