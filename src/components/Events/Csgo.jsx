@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Row, Col } from 'reactstrap';
+import { Row, Button, Col } from 'reactstrap';
 
 const Csgo = () => {
 
@@ -10,7 +10,7 @@ const Csgo = () => {
         <Row>
             <Col md="6">
                 <h2 align="center">
-                    CSGO
+                    Free Fire
                 </h2>
                     <div align="center">
                     <h5>Timings</h5>
