@@ -15,7 +15,7 @@ const Csgo = () => {
      <div className="csgobg"></div>
      </div>
          <div align="center" className="pt-5">
-             <h1>CS:GO</h1>
+             <h1>Free Fire</h1>
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
