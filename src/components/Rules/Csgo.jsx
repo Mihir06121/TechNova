@@ -30,8 +30,8 @@ const Csgo = () => {
                         <li>By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants
                             and the MOBILE E-SPORTS® Staff. </li>
                         <li>
+                        It is a 5 (Five) Player Team Tournament.
                         </li>
-                        It is a 5 (Five) Player Team Tournament
                         <li>
                         It is strictly prohibited to gamble or bet during an ongoing tournament. This rule applies to players or a team management that has any relations to a participating party.
                         Such actions can give unfair advantage to close associates of teams that are playing. 
@@ -46,8 +46,7 @@ const Csgo = () => {
                         It is prohibited to spam or use offensive messages. 
                         </li>
                         <li>
-                        During an on-going tournament, players are not allowed to change their in-game name. Clan Tags before in-game
-                        names are allowed to be changed. 
+                        All participants agree that their matches may be streamed and/or recorded and published on our platforms such as Youtube. 
                         </li>
                         <li>
                         Team members that are aware of a fellow hacker or cheater’s actions yet failed to come forth in reporting him will
@@ -78,8 +77,7 @@ const Csgo = () => {
                         Players that leave the lobby earlier and thus do not show up on the scoreboard may be suspended from on-going tournaments.
                         </li>
                         <li>
-                        Substitutions are not applicable, registered 5 must play through duration of
-                        tournament.
+                        Participants should join the lobby at least 10 mins before the match time.
                         </li>
                         <li>
                         It is not allowed to switch to the spectator mode. If a player is caught using the spectator mode, that team will automatically have to forfeit the current round of that match. 
@@ -94,19 +92,14 @@ const Csgo = () => {
                         Depending on the settings for each individual tournament, more rules may apply for every match, such as banned items. If any special rules apply, then they may be found in the tournament’s registration article on this website. 
                         </li>
                         <li>
-                        The first team to win 16 rounds will be declared the victor of the match and
-                        will advance
+                        Playing via Emulators/Controllers is not allowed.
                         </li><li> 
-                        In case of a tie after the regulation rounds end (15-15), 6 extra rounds
-                        will be played. 
+                        Admin Team has right to ban/kick any player without prior notice.
                         </li>
                         <li>
-                        The map each team will play will be picked through a map veto.
-                        </li><li>
-                        Starting side will be chosen by a knife round.
+                        Teaming/Hacking is not allowed and will result in a permanent ban.
                         </li>
-                        <li>
-                        Each individual round is 1:45 in duration
+                        <li>Decision taken by the Admin Team will be final and binding and won't be changed or reverted under any circumstances
                         </li>
                     </ul>
                 </p>
@@ -117,23 +110,41 @@ const Csgo = () => {
                 <div className="">
                     <ul>
                         <li>
-                        Game version – The tournament will use the latest available version of the game
-                        client.
+                        Kill Points are awarded to Player based on the number of Kills the Player accumulates during each Match.
+                        A Player will earn two (2) Kill Points per Kill.
                         </li>
                         <li>
-                        Anti-Cheat – Tournament servers will be VAC enabled and will require VAC enabled
-                        clients.
+                        Placement Points are awarded to Player based on their finishing position at the end of each Match.
+                        Player will accumulate Placement Points based on the following matrix.
                         </li>
                         <li>
-                        If a player is VAC banned then they are not allowed to take part in
-                        a match.
+                        A Player’s Match Points is the sum of their Kill Points and Placement Points.
                         </li>
                         <li>
-                        In-Game chat – It is not allowed to write about things that are not directly
-                        related to the match in the in-game chat.<br/>                        This is including but not limited to discussion of the technical
-                        issues and any sort of advertisement.
+                        Kill Points + Placement Points = Match Points
+For example, a Player who accumulates 10 Kills and finishes the Match in the 3rd position will earn
+37 Match Points (20 + 17 = 37).
                         </li>
                     </ul>
+                </div>
+                <div className="p-5">
+                #POINT SYSTEM
+                    Placement Points<br/>
+                    #1 20<br/>
+                    #2 17<br/>
+                    #3 15<br/>
+                    #4 13<br/>
+                    #5 10<br/>
+                    #6 9<br/>
+                    #7 8<br/>
+                    #8 7<br/>
+                    #9 6<br/>
+                    #10 5<br/>
+                    #11 4<br/>
+                    #12 3<br/>
+                    #13 2<br/>
+                    #14 1<br/>
+                    Rest 0<br/>
                 </div>
             </div>
         </div>

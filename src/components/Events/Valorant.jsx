@@ -14,7 +14,7 @@ const Valorant = () => {
                 </h2>
                     <div align="center">
                     <h5>Timings</h5>
-                    <h5>02:00 pm</h5>
+                    <h5>11:00 am</h5>
                     </div>
             </Col>
             <Col align="center" md="6">
