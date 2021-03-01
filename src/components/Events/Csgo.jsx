@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Row, Button, Col } from 'reactstrap';
 
-const Csgo = () => {
+const freefire = () => {
 
     return(
 
@@ -18,7 +18,7 @@ const Csgo = () => {
                     </div>
             </Col>
             <Col align="center" md="6">
-                    <Link className="btn btn-primary" to="/rulescsgo">Know More</Link>
+                    <Link className="btn btn-primary" to="/rulesfreefire">Know More</Link>
                     {/* <Button color="primary"><a href="https://forms.gle/ZivGCsSUzhhpXkEN7" className="btn btn-primary">Register</a></Button> */}
             </Col>
         </Row> 
@@ -26,4 +26,4 @@ const Csgo = () => {
     )
 }
 
-export default Csgo
+export default freefire

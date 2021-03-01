@@ -23,7 +23,7 @@
     list-style: none;
 }
 
-.csgobg{
+.freefirebg{
     background-image: url(../../img/freefire.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -85,7 +85,7 @@
 }
 
 @media only screen and (max-width: 786px) {
-    .csgobg {
+    .freefirebg {
         height: 150px;
     }
 }

@@ -1,18 +1,15 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Collapse,  CardBody } from 'reactstrap'
 
-const Csgo = () => {
+const Freefire = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
 
  return(
      <div id="codhead" className="pt-5 pb-5"> <div className=""> 
-     <div className="csgobg"></div>
+     <div className="freefirebg"></div>
      </div>
          <div align="center" className="pt-5">
              <h1>Free Fire</h1>
@@ -156,4 +153,4 @@ For example, a Player who accumulates 10 Kills and finishes the Match in the 3rd
  )
 }
 
-export default Csgo
+export default Freefire

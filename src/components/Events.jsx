@@ -8,7 +8,7 @@ import Quiz from './Events/Quiz'
 import Webinar from './Events/Webinar';
 import CallOfDuty from './Events/CallOfDuty';
 import Valorant from './Events/Valorant';
-import Csgo from './Events/Csgo';
+import Freefire from './Events/Freefire';
 import AmongUs from './Events/AmongUs';
 import "../components/Rules/Rules.css"
 
@@ -51,7 +51,7 @@ const Events = () => {
                         </div>
                         <CallOfDuty /><hr className="bg-light m-2" />
                         <Valorant /><hr className="bg-light m-2" />
-                        <Csgo /><hr className="bg-light m-2" />
+                        <Freefire /><hr className="bg-light m-2" />
                         <AmongUs />
                         </Card>
                     </Col>

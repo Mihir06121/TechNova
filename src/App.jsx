@@ -13,7 +13,7 @@ import RulesWebDesign from './components/Rules/WebDesign'
 import RulesCoding from './components/Rules/Coding'
 import RulesQuiz from './components/Rules/Quiz'
 import RulesValorant from './components/Rules/Valorant'
-import RulesCsgo from './components/Rules/Csgo'
+import RulesFreefire from './components/Rules/Freefire'
 import RulesDebugging from './components/Rules/Debugging';
 import RulesAmongus from './components/Rules/AmongUs';
 import WebinarRegister from './components/Rules/WebinarRegistration'
@@ -40,8 +40,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
             <Route exact path="/rulesdebugging">
               <RulesDebugging />
             </Route>
-            <Route exact path="/rulescsgo">
-              <RulesCsgo />
+            <Route exact path="/rulesfreefire">
+              <RulesFreefire />
             </Route>
             <Route exact path="/rulesValorant">
               <RulesValorant />
