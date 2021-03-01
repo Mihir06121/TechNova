@@ -59,13 +59,13 @@ const Contact = () => {
                 <Row align="center" className="p-5">
                     <Col>
                     <div className="pb-5">
-                    <a href="https://www.gmail.com"><i className="far fa-envelope fa-2x"></i><br/>Get in touch</a>
+                    <a href="https://www.gmail.com"><i className="far fa-envelope fa-2x  text-white"></i><br/>Get in touch</a>
                     </div>
                     </Col>
                     <Col>
                     <div className="text-white">
-                    <a className="text-whites" href="https://www.instagram.com/technova_slrtdc/">
-                    <i className="fab fa-instagram fa-2x"></i><br/>Like, Follow and Support in Instagram</a>
+                    <a className="" href="https://www.instagram.com/technova_slrtdc/">
+                    <i className="fab fa-instagram fa-2x text-white"></i><br/>Like, Follow and Support on Instagram</a>
                     </div>
                     </Col>
                 </Row>

@@ -5,8 +5,6 @@ import logo from '../img/logo.png'
 
 const Home = () => {
 
-
-
     return (
         <div id="home" className="p-lg-5 bgwrapper">
             <div className="p-lg-5 bright">
