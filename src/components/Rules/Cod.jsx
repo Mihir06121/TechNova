@@ -3,13 +3,11 @@ import { Button, Collapse,  CardBody } from 'reactstrap'
 import "./Rules.css"
 
 const RuleCod = () => {
+
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
     
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
-
  return(
      <div id="codhead" className="pt-5 pb-5">
          <div className="img-fluid"> 

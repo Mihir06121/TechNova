@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -17,8 +17,21 @@ import RulesFreefire from './components/Rules/Freefire'
 import RulesDebugging from './components/Rules/Debugging';
 import RulesAmongus from './components/Rules/AmongUs';
 import WebinarRegister from './components/Rules/WebinarRegistration'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
 
+function _ScrollToTop(props) {
+  const { pathname } = useLocation();
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, [pathname]);
+  return props.children
+}
+
+  AOS.init({
+    duration:'1200',
+  })
+
+const ScrollToTop = withRouter(_ScrollToTop)
 
  const App = () => {
    
@@ -34,6 +47,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
       <div>
         <Router>
           <Switch>
+            <ScrollToTop>
             <Route exact path="/rulesamongus">
               <RulesAmongus />
             </Route>
@@ -71,6 +85,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
               <Contact />
               <Footer />
             </Route>
+            </ScrollToTop>
           </Switch>
         </Router>
       </div>
