@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { Button, CardBody, Collapse } from 'reactstrap'
+import React from 'react'
+
 
 const RuleCod = () => {
     window.onbeforeunload = function () {
@@ -36,7 +36,7 @@ const RuleCod = () => {
                             Website must be responsive and should run in any browser.
                         </li>
                         <li>
-                            Paricipants will be disqualified for using or adding offensive contents in webpages or whatsapp group.
+                            Participants will be disqualified for using or adding offensive contents in webpages or whatsapp group.
                         </li>
                         <li>
                             Links for submitting your site will be povided in Google Meet

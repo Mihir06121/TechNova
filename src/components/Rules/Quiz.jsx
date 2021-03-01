@@ -27,7 +27,7 @@ const RulesQuiz = () => {
                 <li>First Participants to hit the buzzer will be called to give answers and rest to remain silent.</li>
                 <li>If any rule violent by any Participant strict action will be taken like direct elimination.</li>
                 <li>Participants with most points and follow up will be awarded with winner and runner ups.</li>
-                <li>Winner will be awarded a trophy, medal and Certificate.</li>
+                <li>Winner will be awarded a , medal and Certificate.</li>
                 </ul>
             </div>
         <div align="center" className="conatiner-fluid">

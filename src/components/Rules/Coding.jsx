@@ -52,7 +52,7 @@ const RulesCoding = () => {
                             Participants who will solve the problem correctly then others will be awarded as winner and follow up will be runner ups.
                         </li>
                         <li>
-                            Winner will be awarded with Trophy, medal & Certificate.
+                            Winner will be awarded with , medal & Certificate.
                         </li>
                         
                             <h2 align="center">Impotant</h2>
