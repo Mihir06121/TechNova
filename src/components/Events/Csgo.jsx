@@ -18,7 +18,8 @@ const Csgo = () => {
                     </div>
             </Col>
             <Col align="center" md="6">
-                    <Link className="btn btn-primary" to="/rulescsgo">Know More</Link>
+                    {/* <Link className="btn btn-primary" to="/rulescsgo">Know More</Link> */}
+                    <Button color="primary"><a href="https://forms.gle/ZivGCsSUzhhpXkEN7" className="btn btn-primary">Register</a></Button>
             </Col>
         </Row> 
         </div>
