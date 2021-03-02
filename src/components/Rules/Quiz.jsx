@@ -25,9 +25,9 @@ const RulesQuiz = () => {
                 <li>5 different sets of questions will be there.</li>
                 <li>Each set will consist of 7 questions.</li>
                 <li>First Participants to hit the buzzer will be called to give answers and rest to remain silent.</li>
-                <li>If any rule violent by any Participant strict action will be taken like direct elimination.</li>
+                <li>If any rule violate by any Participant strict action will be taken like direct elimination.</li>
                 <li>Participants with most points and follow up will be awarded with winner and runner ups.</li>
-                <li>Winner will be awarded a , medal and Certificate.</li>
+                <li>Winner will be awarded a Certificate.</li>
                 </ul>
             </div>
         <div align="center" className="conatiner-fluid">

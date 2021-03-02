@@ -7,7 +7,7 @@ const RuleCod = () => {
     window.onbeforeunload = function () {
         window.scrollTo(0, 0);
     }
-    
+
  return(
      <div id="codhead" className="pt-5 pb-5">
          <div className="img-fluid"> 
@@ -149,6 +149,48 @@ const RuleCod = () => {
                             Kill the enemy in hardpoint and secure points
                             first team to reach 150 points wins the match
                             Time limit : 300 secs 
+                </div>
+                <h3 align="center">Battle Royal</h3>
+                <div className="p-5">
+                Scoring System**
+
+                1 Kill = 1 Point<br/>
+
+                Points at the end of the Match<br/>
+
+                Placement<br/>
+
+                Points<br/>
+
+                    
+                Placement<br/>
+
+                Points<br/>
+
+                1 - 20<br/>  
+                2 - 15 <br/>  
+                3 - 12 <br/>  
+                4 - 10 <br/>  
+                5 - 8  <br/>  
+                6 - 7 <br/>   
+                7 - 6 <br/>   
+                8 - 5 <br/>   
+                9 - 4 <br/>   
+                10 - 3 <br/>  
+                11 - 1<br/>
+                12 - 1<br/>
+                13 - 1<br/>
+                14 - 1<br/>
+                15 - 1<br/>
+                16 - 0<br/>
+                17 - 0<br/>
+                18 - 0<br/>
+                19 - 0<br/>
+                20 - 0<br/>
+
+                Tournament Maps<br/>
+
+                Maps:  Classic<br/>
                 </div>
             </div>
         </div>

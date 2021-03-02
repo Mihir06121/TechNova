@@ -49,10 +49,10 @@ const RulesCoding = () => {
                             Do not leave the whatsapp group until the result is declared or you may loose the winning award.
                         </li>
                         <li>
-                            Participants who will solve the problem correctly then others will be awarded as winner and follow up will be runner ups.
+                            Participants who will solve the problem correctly will be awarded as winner and follow up will be runner ups.
                         </li>
                         <li>
-                            Winner will be awarded with , medal & Certificate.
+                            Winner will be awarded with a Certificate.
                         </li>
                         
                             <h2 align="center">Impotant</h2>
