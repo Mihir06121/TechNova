@@ -27,9 +27,6 @@ const Freefire = () => {
                         <li>By participating in our tournaments, all participants automatically agree that they vow to respect fellow participants
                             and the MOBILE E-SPORTS® Staff. </li>
                         <li>
-                        It is a 5 (Five) Player Team Tournament.
-                        </li>
-                        <li>
                         It is strictly prohibited to gamble or bet during an ongoing tournament. This rule applies to players or a team management that has any relations to a participating party.
                         Such actions can give unfair advantage to close associates of teams that are playing. 
                         </li>
