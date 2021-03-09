@@ -17,11 +17,10 @@ const Webinar = () => {
                 Date: 12th March 2021<br/>
                 Timing: 11:00 am
                 <br/><br/>
-                Note: Participants will be awarded with Certificate
                 </p>
                 </CardBody>
                 <div align="center" className="pt-4 pb-4">
-                    <Link className="btn btn-primary" to="/registerwebinar/">Register YourSelf</Link>
+                    <Link className="btn btn-primary" to="/registerwebinar/">Know More</Link>
                 </div>
             </Card>
         </div>
