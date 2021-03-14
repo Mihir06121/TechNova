@@ -194,9 +194,9 @@ const RuleCod = () => {
                 </div>
             </div>
         </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
         <Button color="primary"><a href="https://forms.gle/Q1eSASSQ3DSEomZ8A" className="btn btn-primary">Register</a></Button>
-        </div>
+        </div> */}
      </div>
  )
 }

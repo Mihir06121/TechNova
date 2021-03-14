@@ -55,9 +55,9 @@ const RuleCod = () => {
                 </p>
             </div>
         </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
         <a href="https://forms.gle/DbBtUiWPWe9SkCAK6" className="btn btn-primary">Register</a>
-        </div>
+        </div> */}
      </div>
  )
 }

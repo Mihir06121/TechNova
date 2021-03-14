@@ -20,9 +20,9 @@ const RuleCod = () => {
                 </div>
             </div>
         </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
         <a href="https://forms.gle/CHZkvrMk7F2Wdcwu6" className="btn btn-primary">Register</a>
-        </div>
+        </div> */}
      </div>
  )
 }

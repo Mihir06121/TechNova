@@ -50,9 +50,9 @@ const RulesAmongus = () => {
             Kill - 1 point<br/>
             </p>
          </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
         <Button color="primary"><a href="https://forms.gle/GNRkxxPPzdgSHdAE7" className="btn btn-primary">Register</a></Button>
-        </div>
+        </div> */}
      </div>
  )
 }

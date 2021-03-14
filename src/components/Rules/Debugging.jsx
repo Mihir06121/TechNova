@@ -58,9 +58,9 @@ const RulesDebugging = () => {
                 </p>
             </div>
         </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
         <Button color="primary"><a href="https://forms.gle/c3FvzCudPZWoHbhi6" className="btn btn-primary">Register</a></Button>
-        </div>
+        </div> */}
      </div>
  )
 }

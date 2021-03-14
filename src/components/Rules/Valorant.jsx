@@ -149,9 +149,9 @@ const RuleValorant = () => {
             The usage of a bug/bugs to gain an advantage versus your opponents
             </p>
         </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
         <Button color="primary"><a href="https://forms.gle/q4J2msxoYxS6arvQ6" className="btn btn-primary">Register</a></Button>
-        </div>
+        </div> */}
      </div>
  )
 }

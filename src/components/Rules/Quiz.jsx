@@ -31,7 +31,7 @@ const RulesQuiz = () => {
                 </ul>
             </div>
         <div align="center" className="conatiner-fluid">
-        <a href="https://forms.gle/2HE5wmYZt4TcDaH66" className="btn btn-primary">Register</a>
+        {/* <a href="https://forms.gle/2HE5wmYZt4TcDaH66" className="btn btn-primary">Register</a> */}
         </div>
         </div>
     )

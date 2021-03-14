@@ -142,10 +142,10 @@ For example, a Player who accumulates 10 Kills and finishes the Match in the 3rd
                 </div>
             </div>
         </div>
-        <div align="center" className="conatiner-fluid">
+        {/* <div align="center" className="conatiner-fluid">
             
         <Button color="primary"><a href="https://forms.gle/ZivGCsSUzhhpXkEN7" className="btn btn-primary">Register</a></Button>
-        </div>
+        </div> */}
      </div>
  )
 }
