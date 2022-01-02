@@ -11,7 +11,7 @@ body{
 }
 
 .bgwrapper{
-    background: url(../img/intro-bg.gif);
+    background: url(../img/2k21_22/banner2.gif);
     /* filter: brightness(70%); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,4 +41,11 @@ body{
         height: 100%;
         width: 100%;
     }
+}
+
+.bg-about {
+    background-image: url('../img/team/Tech-NOVA_2K19__20200418_122134-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
