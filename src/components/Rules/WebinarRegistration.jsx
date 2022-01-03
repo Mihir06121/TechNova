@@ -8,6 +8,9 @@ const RuleCod = () => {
 
  return(
      <div className="pt-5 pb-3">
+        <div className="p-5"> 
+            <div className="webinarbg"></div>
+        </div>
          <div align="center" className="pt-5">
              <h1>Webinar</h1>
          </div>

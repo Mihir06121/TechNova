@@ -101,3 +101,33 @@
         height: 150px;
     }
 }
+
+.bgmibg{
+    background-image: url(../../img/bgmi.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
+.standupcomedybg{
+    background-image: url(../../img/standupcomedy.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
+.webinarbg{
+    background-image: url(../../img/webinar.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
+@media only screen and (max-width: 786px) {
+    .bgmibg {
+        height: 150px;
+    }
+}

@@ -6,12 +6,12 @@ const RuleCod = () => {
         window.scrollTo(0, 0);
     }
  return(
-     <div className="pt-5 pb-3">
-     <div className=""> 
+     <div className="pb-3">
+     <div className="p-lg-5"> 
      <div className="webbg"></div>
      </div>
          <div align="center">
-             <h1>Web Design</h1>
+             <h1>UI Design</h1>
          </div>
         <div className="pb-5">
             <div className="p-5">
