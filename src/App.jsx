@@ -19,6 +19,8 @@ import RulesFreefire from '../src/components/Rules/Freefire'
 import RulesDebugging from '../src/components/Rules/Debugging';
 import RulesDigitalPoster from '../src/components/Rules/DigitalPoster'
 import RulesBgmi from '../src/components/Rules/Bgmi'
+import RulesClashRoyale from '../src/components/Rules/ClashRoyal'
+import RulesE_Chess from '../src/components/Rules/E_Chess'
 import WebinarRegister from '../src/components/Rules/WebinarRegistration'
 import { BrowserRouter as Router, Switch, Route, useLocation, withRouter } from 'react-router-dom';
 
@@ -57,11 +59,17 @@ function _ScrollToTop(props) {
               <Route exact path="/rulesdebugging">
                 <RulesDebugging />
               </Route>
+              <Route exact path="/rulesclashroyale">
+                <RulesClashRoyale />
+              </Route>
               <Route exact path="/rulesfreefire">
                 <RulesFreefire />
               </Route>
               <Route exact path="/rulesfreefire">
                 <RulesFreefire />
+              </Route>
+              <Route exact path="/rulesechess">
+                <RulesE_Chess />
               </Route>
               <Route exact path='/rulesdigitalposter'>
                 <RulesDigitalPoster/>

@@ -130,4 +130,32 @@
     .bgmibg {
         height: 150px;
     }
+    .standupcomedybg {
+        height: 150px;
+    }
+    .webinarbg {
+        height: 150px;
+    }
+    .clashRoyalebg {
+        height: 150px;
+    }
+    .e-chessbg {
+        height: 150px;
+    }
+}
+
+.clashRoyalebg {
+    background-image: url(../../img/clashRoyale.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
+.e-chessbg {
+    background-image: url(../../img/chess.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
 }

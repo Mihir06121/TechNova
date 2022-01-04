@@ -83,7 +83,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:true, isOpen2:false, isOpen3:false})
-                    }}>Day 1</Button>
+                    }}><h1>Day 1</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen1}>
@@ -103,6 +103,7 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -116,6 +117,8 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -129,6 +132,8 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingFour">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -153,7 +158,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:false, isOpen2:true, isOpen3:false})
-                    }}>Day 2</Button>
+                    }}><h1>Day 2</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen2}>
@@ -173,6 +178,23 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
+                          <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTen">
+                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                Chess
+                              </a>
+                            </h2>
+                            <div id="collapseTen" className="accordion-collapse collapse show" aria-labelledby="headingTen" data-bs-parent="#accordionExample1">
+                              <div className="accordion-body">
+                                Date: <br/>
+                                  <Link className="btn btn-primary" to="/rulesechess">Know More</Link>                     
+                              </div>
+                            </div>
+                          </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingSeven">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -186,6 +208,8 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingEight">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -210,7 +234,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:false, isOpen2:false, isOpen3:true})
-                    }}>Day 3</Button>
+                    }}><h1>Day 3</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen3}>
@@ -230,6 +254,8 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -243,18 +269,36 @@ const Home = () => {
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
-                            <h2 className="accordion-header" id="headingThree">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h2 className="accordion-header" id="headingNine">
+                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                 VALORANT
                               </a>
                             </h2>
-                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+                            <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
                                   <Link className="btn btn-primary" to="/rulesValorant">Know More</Link>                     
                               </div>
                             </div>
                           </div>
+                          <hr className="bg-light" />
+
+                          <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThree">
+                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Clash Royale
+                              </a>
+                            </h2>
+                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+                              <div className="accordion-body">
+                                  <Link className="btn btn-primary" to="/rulesclashroyale">Know More</Link>                     
+                              </div>
+                            </div>
+                          </div>
+                          <hr className="bg-light" />
+
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingFour">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
