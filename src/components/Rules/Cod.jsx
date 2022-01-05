@@ -18,11 +18,11 @@ const RuleCod = () => {
          </div>
         <div className="pt-5 pb-5">
             <div className="p-5">
-                <div align="center" className="p-3">
+                {/* <div align="center" className="p-3">
                     <h2>Registration Dates</h2>
                     <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
                     <h3>Late registration will not be entertained</h3>
-                </div>
+                </div> */}
             <h2 align="center" className="pb-3">General Rules</h2>
                 <p>
                     <ul>
