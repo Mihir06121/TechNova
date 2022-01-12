@@ -31,7 +31,7 @@ const RulesCoding = () => {
                             Entry fees: free
                         </li>
                         <li>
-                            Coding Contest will be held on CodeChef <a href="https://www.hackerrank.com/">(hackerrank.com)</a>
+                            Coding Contest will be held on Hackerrank <a href="https://www.hackerrank.com/">(hackerrank.com)</a>
                         </li>
                         <li>
                             Participants must have account in Hackerrank
