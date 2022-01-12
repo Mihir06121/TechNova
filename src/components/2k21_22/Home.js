@@ -83,7 +83,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:true, isOpen2:false, isOpen3:false})
-                    }}><h1>Day 1 (17th Feb 2022) (16th Feb 2022)</h1></Button>
+                    }}><h1>Day 1 (16th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen1}>
