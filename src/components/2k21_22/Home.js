@@ -46,7 +46,9 @@ const Home = () => {
                         <h1 className='display-1' style={{color: 'black',}}><strong>TECHNOVA</strong></h1>
                     </div> */}
                       {/* <h2 id="demo" data-aos="fade-up" data-aos-delay="700"><b></b></h2> */}
-                      <h3 className="lead pt-5 pb-5 display-4" data-aos="fade-up" data-aos-delay="500">Experience IT</h3>
+                      <div className='grad-bg'>
+                        <h2 className="display-4 shadow-lg text-dark p-3" data-aos="fade-up" data-aos-delay="500"><strong>Experience IT</strong></h2>
+                      </div>
                       <hr className="my-2 bg-light mt-3 mb-3 pt-2" data-aos="flip-left" data-aos-delay="500" />
                       <p className="lead pt-5">
                       {/* <Button color="primary" href="#about">Get Started</Button> */}
