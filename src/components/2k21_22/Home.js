@@ -41,7 +41,7 @@ const Home = () => {
                       {/* <img className="img-fluid logo_img m-1" src={logo} alt="logo"></img> */}
                       
                     <div className='py-md-5 d-flex justify-content-center align-items-center'>
-                        <h1 className='display-4'>TECHNOVA</h1>
+                        <h1 className='display-1' style={{color: 'black',}}><strong>TECHNOVA</strong></h1>
                     </div>
                       {/* <h2 id="demo" data-aos="fade-up" data-aos-delay="700"><b></b></h2> */}
                       <h3 className="lead pt-5 pb-5 display-4" data-aos="fade-up" data-aos-delay="500">Experience IT</h3>
@@ -83,7 +83,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:true, isOpen2:false, isOpen3:false})
-                    }}><h1>Day 1</h1></Button>
+                    }}><h1>Day 1 (17th Feb 2022) (16th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen1}>
@@ -158,7 +158,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:false, isOpen2:true, isOpen3:false})
-                    }}><h1>Day 2</h1></Button>
+                    }}><h1>Day 2 (17th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen2}>
@@ -234,7 +234,7 @@ const Home = () => {
                   <div className='d-flex justify-content-center align-items-center'>
                     <Button color="primary" block onClick={() => {
                         setValue({isOpen1:false, isOpen2:false, isOpen3:true})
-                    }}><h1>Day 3</h1></Button>
+                    }}><h1>Day 3 (18th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen3}>
