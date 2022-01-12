@@ -87,7 +87,6 @@ const Home = () => {
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen1}>
-                        <p>I am sample Text to display</p>
                         <div className='border rounded-lg p-3'>
                         <div className="accordion" id="accordionExample">
                           <div className="accordion-item">
@@ -98,7 +97,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 09:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulescoding">Know More</Link>                     
                               </div>
                             </div>
@@ -112,7 +111,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 10:00 AM<br/>
                                 <Link className="btn btn-primary" to="/rulesdebugging">Know More</Link>                     
                               </div>
                             </div>
@@ -127,7 +126,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 12:00 PM<br/>
                                   <Link className="btn btn-primary" to="/rulesuidesign">Know More</Link>                     
                               </div>
                             </div>
@@ -142,7 +141,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 11:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesquiz">Know More</Link>                     
                               </div>
                             </div>
@@ -173,7 +172,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseFive" className="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 08:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesstandupcomedy">Know More</Link>                     
                               </div>
                             </div>
@@ -183,12 +182,12 @@ const Home = () => {
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTen">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                                Chess
+                                E-Chess
                               </a>
                             </h2>
                             <div id="collapseTen" className="accordion-collapse collapse show" aria-labelledby="headingTen" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 09:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesechess">Know More</Link>                     
                               </div>
                             </div>
@@ -203,7 +202,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 10:30 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesdigitalposter">Know More</Link>                     
                               </div>
                             </div>
@@ -213,12 +212,12 @@ const Home = () => {
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingEight">
                               <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                WEBINAR
+                                Learn With Us
                               </a>
                             </h2>
                             <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 12:00 PM<br/>
                                   <Link className="btn btn-primary" to="/registerwebinar">Know More</Link>                     
                               </div>
                             </div>
@@ -249,7 +248,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 24 Hrs<br/>
                                   <Link className="btn btn-primary" to="/rulesbgmi">Know More</Link>                     
                               </div>
                             </div>
@@ -264,7 +263,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
-                                Date: <br/>
+                                Time: 24 Hrs<br/>
                                   <Link className="btn btn-primary" to="/rulescod">Know More</Link>                     
                               </div>
                             </div>
@@ -279,6 +278,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
+                                Time: 24 Hrs<br/>
                                   <Link className="btn btn-primary" to="/rulesValorant">Know More</Link>                     
                               </div>
                             </div>
@@ -293,6 +293,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
+                                Time: 01:00 PM<br/>
                                   <Link className="btn btn-primary" to="/rulesclashroyale">Know More</Link>                     
                               </div>
                             </div>
@@ -307,6 +308,7 @@ const Home = () => {
                             </h2>
                             <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
+                                Time: 10:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesfreefire">Know More</Link>                     
                               </div>
                             </div>
