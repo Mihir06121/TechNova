@@ -5,6 +5,7 @@ import '../../components/home.css'
 import { Jumbotron, Collapse, Button } from 'reactstrap';
 import { Card, Row, Col } from 'reactstrap';
 import banner_1 from '../../img/2k21_22/banner_1.png'
+import banner_2 from '../../img/2k21_22/experienceIt.png'
 const Home = () => {
 
   useEffect (() => {
