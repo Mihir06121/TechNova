@@ -21,7 +21,7 @@ const RulesDebugging = () => {
             <div className="p-5">
                 <div align="center" className="p-3">
                     <h2>Registration Dates</h2>
-                    <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
+                    <h2>12<sup>th</sup> January 2022 - to - 13<sup>th</sup> February 2022</h2>
                     <h3>Late registration will not be entertained</h3>
                 </div>
             <h2 align="center" className="pb-3">General Rules</h2>
@@ -54,13 +54,22 @@ const RulesDebugging = () => {
                         <li>
                             Winner will be awarded with a Certificate.
                         </li>
+                        <li>
+                        Final decision will be taken by organising committee. 
+                        </li>
+                        <li>
+                        Participants will be selected on bases of test cases passed and time constraint. Elimination will be held dynamically.
+                        </li>
+                        <li>
+                        Futher Details or changes will be shared on whatsapp group.
+                        </li>
                     </ul>
                 </p>
             </div>
         </div>
-        {/* <div align="center" className="conatiner-fluid">
-        <Button color="primary"><a href="https://forms.gle/c3FvzCudPZWoHbhi6" className="btn btn-primary">Register</a></Button>
-        </div> */}
+        <div align="center" className="conatiner-fluid">
+        <Button color="primary"><a href="https://docs.google.com/forms/d/e/1FAIpQLSejQ73Le8hdUb0rFvnzyA-VybZhqNOAowF81GxbBZjTE8qQWQ/viewform" className="btn btn-primary">Register</a></Button>
+        </div>
      </div>
  )
 }

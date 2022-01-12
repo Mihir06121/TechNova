@@ -2,8 +2,9 @@ import React, {useEffect, useState} from 'react'
 import AOS from'aos';
 import { Link } from 'react-router-dom'
 import '../../components/home.css'
-import { Jumbotron, Collapse, Button, CardBody, Card } from 'reactstrap';
-
+import { Jumbotron, Collapse, Button } from 'reactstrap';
+import { Card, Row, Col } from 'reactstrap';
+import banner_1 from '../../img/2k21_22/banner_1.png'
 const Home = () => {
 
   useEffect (() => {
@@ -38,11 +39,11 @@ const Home = () => {
                   <Jumbotron data-aos="fade-up" align="center" className="py-lg-5 bg-t">
                       {/* <h1 align="center" className="display-4 head-text pt-5 pb-5"
                       data-aos="fade-up" data-aos-delay="300"><strong>TechNova-21</strong></h1><br/> */}
-                      {/* <img className="img-fluid logo_img m-1" src={logo} alt="logo"></img> */}
+                      <img className="img-fluid logo_img m-1" src={banner_1} alt="logo"></img>
                       
-                    <div className='py-md-5 d-flex justify-content-center align-items-center'>
+                    {/* <div className='py-md-5 d-flex justify-content-center align-items-center'>
                         <h1 className='display-1' style={{color: 'black',}}><strong>TECHNOVA</strong></h1>
-                    </div>
+                    </div> */}
                       {/* <h2 id="demo" data-aos="fade-up" data-aos-delay="700"><b></b></h2> */}
                       <h3 className="lead pt-5 pb-5 display-4" data-aos="fade-up" data-aos-delay="500">Experience IT</h3>
                       <hr className="my-2 bg-light mt-3 mb-3 pt-2" data-aos="flip-left" data-aos-delay="500" />
@@ -161,7 +162,6 @@ const Home = () => {
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen2}>
-                        <p>I am sample Text to display</p>
                         <div className='border rounded-lg p-3'>
                         <div className="accordion" id="accordionExample1">
                           <div className="accordion-item">
@@ -237,7 +237,6 @@ const Home = () => {
                   </div>
                   <div className='p-3'>
                     <Collapse isOpen={isOpen3}>
-                        <p>I am sample Text to display</p>
                         <div className='border rounded-lg p-3'>
                         <div className="accordion" id="accordionExample2">
                           <div className="accordion-item">
@@ -329,12 +328,46 @@ const Home = () => {
                   </div>
             </div>: null}
         </div>
-        <div className='py-md-5 conatainer-fluid bg-warning'>
-            <div className='d-flex justify-content-center align-items-center'>
+        <div className='py-md-5 conatainer-fluid'>
+          <div className='d-flex justify-content-center align-items-center'>
               <h1>Contact</h1>
+          </div>
+            <div className=''>
+                <Row className="bg-black">
+                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="flip-up" data-aos-delay="200">
+                        <Card className="bg-dark" body>
+                        <div align="center" className="pt-5 pb-5">
+                            <h4>
+                            Inamul Hasan <br/>
+                            7977710148
+                            </h4>
+                        </div>
+                        </Card>
+                    </Col>
+                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="flip-up" data-aos-delay="400">
+                        <Card className="bg-dark" body>
+                        <div align="center" className="pt-5 pb-5">
+                            <h4>
+                                Md. Irfan<br/>
+                                9136375005
+                            </h4>
+                        </div>
+                        </Card>
+                    </Col>
+                    <Col className="bg-t pt-3 pb-3" sm="4" data-aos="flip-up" data-aos-delay="300">
+                        <Card className="bg-dark" body>
+                        <div align="center" className="pt-5 pb-5">
+                            <h4>
+                                Raj Vishwakarma<br/>
+                                9324571667
+                            </h4>
+                        </div>
+                        </Card>
+                    </Col>
+                </Row>
             </div>
         </div>
-        <div className='py-md-5 conatainer-fluid bg-danger'>
+        <div className='py-md-5 conatainer-fluid'>
             <div className='d-flex justify-content-center align-items-center'>
               <h1>Designed and Developed By Team Technova</h1>
             </div>

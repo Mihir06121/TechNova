@@ -18,7 +18,7 @@ const Freefire = () => {
             <div className="p-5">
                 <div align="center" className="p-3">
                     <h2>Registration Dates</h2>
-                    <h2>24<sup>th</sup> Febuary 2021 - to - 9<sup>th</sup> March 2021</h2>
+                    <h2>12<sup>th</sup> January 2022 - to - 13<sup>th</sup> February 2022</h2>
                     <h3>Late registration will not be entertained</h3>
                 </div>
             <h2 align="center" className="pb-3">General Rules</h2>
@@ -142,10 +142,10 @@ For example, a Player who accumulates 10 Kills and finishes the Match in the 3rd
                 </div>
             </div>
         </div>
-        {/* <div align="center" className="conatiner-fluid">
+        <div align="center" className="conatiner-fluid">
             
-        <Button color="primary"><a href="https://forms.gle/ZivGCsSUzhhpXkEN7" className="btn btn-primary">Register</a></Button>
-        </div> */}
+        <Button color="primary"><a href="https://forms.gle/esVynbU3NsFZzwMH6" className="btn btn-primary">Register</a></Button>
+        </div>
      </div>
  )
 }
