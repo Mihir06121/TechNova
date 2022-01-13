@@ -47,7 +47,7 @@ const Home = () => {
                     </div> */}
                       {/* <h2 id="demo" data-aos="fade-up" data-aos-delay="700"><b></b></h2> */}
                       <div className='grad-bg'>
-                        <h2 className="display-4 shadow-lg text-dark p-3" data-aos="fade-up" data-aos-delay="500"><strong>Experience IT</strong></h2>
+                        <h2 className="display-md-4 shadow-lg text-dark p-3" data-aos="fade-up" data-aos-delay="500"><strong>Experience IT</strong></h2>
                       </div>
                       <hr className="my-2 bg-light mt-3 mb-3 pt-2" data-aos="flip-left" data-aos-delay="500" />
                       <p className="lead pt-5">
