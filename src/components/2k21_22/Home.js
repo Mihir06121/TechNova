@@ -95,60 +95,60 @@ const Home = () => {
                         <div className="accordion" id="accordionExample">
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button border-0 text-white" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                CODING
+                              <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                              <Link className="" to="/rulescoding">CODING</Link>
                               </a>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            {/* <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
                                 Time: 09:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulescoding">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                DEBUGGING
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesdebugging">DEBUGGING</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            {/* <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
                                 Time: 10:00 AM<br/>
                                 <Link className="btn btn-primary" to="/rulesdebugging">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                UI DESIGING
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesuidesign">UI DESIGN</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            {/* <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
                                 Time: 12:00 PM<br/>
                                   <Link className="btn btn-primary" to="/rulesuidesign">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingFour">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                QUIZ
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesquiz">QUIZ</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            {/* <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                               <div className="accordion-body">
                                 Time: 11:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesquiz">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         </div>
@@ -169,61 +169,61 @@ const Home = () => {
                         <div className="accordion" id="accordionExample1">
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingFive">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                STAND-UP COMEDY
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesstandupcomedy">STAND-UP COMEDY</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseFive" className="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
+                            {/* <div id="collapseFive" className="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
                                 Time: 08:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesstandupcomedy">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTen">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                                E-Chess
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesechess">E-CHESS</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseTen" className="accordion-collapse collapse show" aria-labelledby="headingTen" data-bs-parent="#accordionExample1">
+                            {/* <div id="collapseTen" className="accordion-collapse collapse show" aria-labelledby="headingTen" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
                                 Time: 09:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesechess">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingSeven">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                DIGITAL-POSTER MAKING
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesdigitalposter">DIGITAL POSTER MAKING</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample1">
+                            {/* <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
                                 Time: 10:30 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesdigitalposter">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingEight">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                Learn With Us
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/registerwebinar">LEARN WITH US</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample1">
+                            {/* <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample1">
                               <div className="accordion-body">
                                 Time: 12:00 PM<br/>
                                   <Link className="btn btn-primary" to="/registerwebinar">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         </div>
@@ -244,76 +244,76 @@ const Home = () => {
                         <div className="accordion" id="accordionExample2">
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                BGMI
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesbgmi">BGMI</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                            {/* <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
                                 Time: 24 Hrs<br/>
                                   <Link className="btn btn-primary" to="/rulesbgmi">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                CALL OF DUTY: MOBILE
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulescod">CALL OF DUTY: MOBILE</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                            {/* <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
                                 Time: 24 Hrs<br/>
                                   <Link className="btn btn-primary" to="/rulescod">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingNine">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                VALORANT
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesValorant">VALORANT</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
+                            {/* <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
                                 Time: 24 Hrs<br/>
                                   <Link className="btn btn-primary" to="/rulesValorant">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Clash Royale
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesclashroyale">CLASH ROYALE</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
+                            {/* <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
                                 Time: 01:00 PM<br/>
                                   <Link className="btn btn-primary" to="/rulesclashroyale">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                           <hr className="bg-light" />
 
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingFour">
-                              <a style={{background:"transparent", cursor: "pointer"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                FREE-FIRE
+                            <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
+                            <Link className="btn btn-primary" to="/rulesfreefire">FREE-FIRE</Link>                     
                               </a>
                             </h2>
-                            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
+                            {/* <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
                               <div className="accordion-body">
                                 Time: 10:00 AM<br/>
                                   <Link className="btn btn-primary" to="/rulesfreefire">Know More</Link>                     
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                         </div>
