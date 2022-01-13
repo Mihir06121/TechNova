@@ -90,7 +90,7 @@ const Home = () => {
                     }}><h1>Day 1 (16th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
-                    <Collapse isOpen={isOpen1}>
+                    <Collapse isOpen={!isOpen1}>
                         <div className='border rounded-lg p-3'>
                         <div className="accordion" id="accordionExample">
                           <div className="accordion-item">
@@ -164,7 +164,7 @@ const Home = () => {
                     }}><h1>Day 2 (17th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
-                    <Collapse isOpen={isOpen2}>
+                    <Collapse isOpen={!isOpen2}>
                         <div className='border rounded-lg p-3'>
                         <div className="accordion" id="accordionExample1">
                           <div className="accordion-item">
@@ -215,7 +215,7 @@ const Home = () => {
                           <div className="accordion-item">
                             <h2 className="accordion-header" id="headingEight">
                             <a style={{background:"transparent", cursor: "pointer"}} className=" border-0 text-white">
-                            <Link className="btn btn-primary" to="/registerwebinar">LEARN WITH US</Link>                     
+                            <Link className="" to="/registerwebinar">LEARN WITH US</Link>                     
                               </a>
                             </h2>
                             {/* <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample1">
@@ -239,7 +239,7 @@ const Home = () => {
                     }}><h1>Day 3 (18th Feb 2022)</h1></Button>
                   </div>
                   <div className='p-3'>
-                    <Collapse isOpen={isOpen3}>
+                    <Collapse isOpen={!isOpen3}>
                         <div className='border rounded-lg p-3'>
                         <div className="accordion" id="accordionExample2">
                           <div className="accordion-item">
@@ -372,7 +372,7 @@ const Home = () => {
         </div>
         <div className='py-md-5 conatainer-fluid'>
             <div className='d-flex justify-content-center align-items-center'>
-              <h1>Designed and Developed By Team Technova</h1>
+              <h4 align='center'>Designed and Developed By Team Technova</h4 >
             </div>
         </div>
       </div>

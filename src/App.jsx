@@ -65,9 +65,6 @@ function _ScrollToTop(props) {
               <Route exact path="/rulesfreefire">
                 <RulesFreefire />
               </Route>
-              <Route exact path="/rulesfreefire">
-                <RulesFreefire />
-              </Route>
               <Route exact path="/rulesechess">
                 <RulesE_Chess />
               </Route>
