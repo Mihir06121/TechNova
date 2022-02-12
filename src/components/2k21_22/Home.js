@@ -372,7 +372,7 @@ const Home = () => {
         </div>
         <div className='py-md-5 conatainer-fluid'>
             <div className='d-flex justify-content-center align-items-center'>
-              <h4 align='center'>Designed and Developed By Team Technova</h4 >
+              <h4 align='center'>Designed and Developed By <a href='https://www.mihirpanchal.com' target='_blank'>Mihir Panchal</a></h4 >
             </div>
         </div>
       </div>
